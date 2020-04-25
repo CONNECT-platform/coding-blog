@@ -34,6 +34,9 @@ export function JoinBetaOverlay(
   this.track({
     bind() {
       setTimeout(() => holder.$.classList.add('active'), 10);
+      if (!('backdropFilter' in holder.$.style) && !('-webkit-backdrop-filter' in holder.$.style)) {
+        holder.$.style.background = 'rgba(48, 48, 48, .99)';
+      }
     }
   });
 
