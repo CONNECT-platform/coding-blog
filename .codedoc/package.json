@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@codedoc/core": "^0.1.30"
+    "@codedoc/core": "^0.1.31",
+    "@types/airtable": "^0.5.7",
+    "airtable": "^0.8.1"
   }
 }

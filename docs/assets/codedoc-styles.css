@@ -53,68 +53,7 @@ body.dark .darklight-0-0-1>.dark {
   .heading-0-0-3:hover .icon-font:hover {
     opacity: 1;
   }
-  .button-0-0-4 {
-    color: white;
-    border: 2px solid #363062;
-    cursor: pointer;
-    height: 40px;
-    display: inline-flex;
-    outline: none;
-    padding: 4px 16px;
-    font-size: 16px;
-    min-width: 96px;
-    background: #363062;
-    align-items: center;
-    margin-left: 8px;
-    border-radius: 3px;
-    vertical-align: middle;
-    justify-content: center;
-    text-decoration: none;
-  }
-  body.dark-mode-animate .button-0-0-4 {
-    transition: background .15s, color .15s, border-color .15s;
-  }
-  .button-0-0-4.icon {
-    width: 40px;
-    padding: 0;
-    font-size: 24px;
-    min-width: 0;
-  }
-  body.dark .button-0-0-4 {
-    color: black;
-    background: #f4eeff;
-    border-color: #f4eeff;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .button-0-0-4 {
-    color: black;
-    background: #f4eeff;
-    border-color: #f4eeff;
-  }
-}
-  .button-0-0-4:hover {
-    color: #363062;
-    background: transparent;
-    text-decoration: none;
-  }
-  body.dark .button-0-0-4:hover {
-    color: #f4eeff;
-    background: transparent;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .button-0-0-4:hover {
-    color: #f4eeff;
-    background: transparent;
-  }
-}
-a.button-0-0-4 {
-  height: 28px;
-}
-a.button-0-0-4.icon {
-  width: 36px;
-  height: 36px;
-}
-  .watermark-0-0-5 {
+  .watermark-0-0-4 {
     color: #424242;
     cursor: pointer;
     display: inline-block;
@@ -123,41 +62,41 @@ a.button-0-0-4.icon {
     transition: opacity .15s;
     text-decoration: none !important;
   }
-  body.dark-mode-animate .watermark-0-0-5 {
+  body.dark-mode-animate .watermark-0-0-4 {
     transition: opacity .15s, color .3s;
   }
-  .watermark-0-0-5:hover {
+  .watermark-0-0-4:hover {
     opacity: 1;
     text-decoration: none;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .watermark-0-0-5 {
+  body:not(.dark-mode-animate) .watermark-0-0-4 {
     color: #eeeeee;
   }
 }
-  body.dark .watermark-0-0-5 {
+  body.dark .watermark-0-0-4 {
     color: #eeeeee;
   }
-  .watermark-0-0-5 svg {
+  .watermark-0-0-4 svg {
     width: 2.8rem;
     display: block;
     margin-top: .25rem;
   }
-  .watermark-0-0-5 svg g {
+  .watermark-0-0-4 svg g {
     fill: #424242;
   }
-  body.dark-mode-animate .watermark-0-0-5 svg g {
+  body.dark-mode-animate .watermark-0-0-4 svg g {
     transition: fill .3s;
   }
-  body.dark .watermark-0-0-5 svg g {
+  body.dark .watermark-0-0-4 svg g {
     fill: #eeeeee;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .watermark-0-0-5 svg g {
+  body:not(.dark-mode-animate) .watermark-0-0-4 svg g {
     fill: #eeeeee;
   }
 }
-  .header-0-0-6 {
+  .header-0-0-5 {
     top: 0;
     right: 0;
     padding: 32px;
@@ -165,7 +104,7 @@ a.button-0-0-4.icon {
     position: fixed;
     text-align: right;
   }
-  .footer-0-0-7 {
+  .footer-0-0-6 {
     left: 0;
     right: 0;
     bottom: 0;
@@ -180,67 +119,67 @@ a.button-0-0-4.icon {
     justify-content: center;
     -webkit-backdrop-filter: blur(12px);
   }
-  body.dark-mode-animate .footer-0-0-7 {
+  body.dark-mode-animate .footer-0-0-6 {
     transition: background .3s;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .footer-0-0-7 {
+  body:not(.dark-mode-animate) .footer-0-0-6 {
     background: rgba(17, 17, 17, 0.85);
   }
 }
-  body.dark .footer-0-0-7 {
+  body.dark .footer-0-0-6 {
     background: rgba(17, 17, 17, 0.85);
   }
-  .footer-0-0-7 .main {
+  .footer-0-0-6 .main {
     overflow: hidden;
     flex-grow: 1;
     text-align: center;
   }
-  .footer-0-0-7 .left {
+  .footer-0-0-6 .left {
     padding-left: 32px;
   }
-  .footer-0-0-7 .right {
+  .footer-0-0-6 .right {
     padding-right: 32px;
   }
 @media screen and (max-width: 800px) {
-  .footer-0-0-7 .left {
+  .footer-0-0-6 .left {
     padding-left: 16px;
   }
-  .footer-0-0-7 .right {
+  .footer-0-0-6 .right {
     padding-right: 16px;
   }
 }
-  .footer-0-0-7 .main>.inside {
+  .footer-0-0-6 .main>.inside {
     display: inline-flex;
     overflow: auto;
     max-width: 100%;
     align-items: center;
   }
-  .footer-0-0-7 .main>.inside hr {
+  .footer-0-0-6 .main>.inside hr {
     width: 2px;
     border: none;
     height: 16px;
     margin: 16px;
     background: #e0e0e0;
   }
-  .footer-0-0-7 .main>.inside a {
+  .footer-0-0-6 .main>.inside a {
     text-decoration: none;
   }
-  .footer-0-0-7 .main>.inside a:hover {
+  .footer-0-0-6 .main>.inside a:hover {
     text-decoration: underline ;
   }
-  body.dark-mode-animate .footer-0-0-7 .main>.inside hr {
+  body.dark-mode-animate .footer-0-0-6 .main>.inside hr {
     transition: background .3s;
   }
-  body.dark .footer-0-0-7 .main>.inside hr {
+  body.dark .footer-0-0-6 .main>.inside hr {
     background: #313131;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .footer-0-0-7 .main>.inside hr {
+  body:not(.dark-mode-animate) .footer-0-0-6 .main>.inside hr {
     background: #313131;
   }
 }
-  .toc-0-0-8 {
+  .toc-0-0-7 {
     top: 0;
     left: 0;
     width: calc(50vw - 464px);
@@ -254,35 +193,35 @@ a.button-0-0-4.icon {
     flex-direction: column;
     padding-bottom: 64px;
   }
-  body.dark-mode-animate .toc-0-0-8 {
+  body.dark-mode-animate .toc-0-0-7 {
     transition: background .3s, border-color .3s;
   }
-  body.dark .toc-0-0-8 {
+  body.dark .toc-0-0-7 {
     background: #1f1f1f;
     border-color: #282828;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-8 {
+  body:not(.dark-mode-animate) .toc-0-0-7 {
     background: #1f1f1f;
     border-color: #282828;
   }
 }
 @media screen and (max-width: 1200px) {
-  .toc-0-0-8 {
+  .toc-0-0-7 {
     width: 100vw;
     transform: translateX(-100vw);
   }
 }
-  .toc-0-0-8.animated {
+  .toc-0-0-7.animated {
     transition: transform .3s;
   }
-  .toc-0-0-8.active {
+  .toc-0-0-7.active {
     transform: translateX(0);
   }
-  .toc-0-0-8 p {
+  .toc-0-0-7 p {
     margin: 0;
   }
-  .toc-0-0-8 a {
+  .toc-0-0-7 a {
     border: 1px solid transparent;
     display: block;
     padding: 8px;
@@ -292,49 +231,49 @@ a.button-0-0-4.icon {
     border-radius: 3px;
     text-decoration: none;
   }
-  body.dark-mode-animate .toc-0-0-8 a {
+  body.dark-mode-animate .toc-0-0-7 a {
     transition: border-color .3s, background .3s;
   }
-  .toc-0-0-8 a:hover {
+  .toc-0-0-7 a:hover {
     background: #f5f5f5;
     text-decoration: none;
   }
-  .toc-0-0-8 a.current {
+  .toc-0-0-7 a.current {
     background: #f5f5f5;
     border-color: #e7e7e7;
     margin-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  body.dark .toc-0-0-8 a.current {
+  body.dark .toc-0-0-7 a.current {
     background: hsl(0, 0%, 6.8%);
     border-color: #282828;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-8 a.current {
+  body:not(.dark-mode-animate) .toc-0-0-7 a.current {
     background: #111111;
     border-color: #282828;
   }
 }
 @media screen and (max-width: 1200px) {
-  .toc-0-0-8 a.current {
+  .toc-0-0-7 a.current {
     border-right: 1px solid;
     margin-right: -8px;
     border-radius: 3px;
   }
 }
-  body.dark .toc-0-0-8 a:hover {
+  body.dark .toc-0-0-7 a:hover {
     background: hsl(0, 0%, 6.8%);
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .toc-0-0-8 a:hover {
+  body:not(.dark-mode-animate) .toc-0-0-7 a:hover {
     background: hsl(0, 0%, 6.8%);
   }
 }
-  body.dark-mode-animate .toc-0-0-8.animated {
+  body.dark-mode-animate .toc-0-0-7.animated {
     transition: transform .3s, background .3s, border-color .3s;
   }
-  .content-0-0-9 {
+  .content-0-0-8 {
     padding: 32px;
     overflow: auto;
     flex-grow: 1;
@@ -342,12 +281,12 @@ a.button-0-0-4.icon {
     padding-right: 0;
   }
 @media screen and (max-width: 1200px) {
-  .content-0-0-9 {
+  .content-0-0-8 {
     margin-right: 0;
     padding-right: 32px;
   }
 }
-  .contentnav-0-0-11 {
+  .contentnav-0-0-10 {
     right: 0;
     width: calc(50vw - 496px);
     bottom: 96px;
@@ -358,56 +297,56 @@ a.button-0-0-4.icon {
     padding-left: 48px;
   }
 @media screen and (max-width: 1200px) {
-  .contentnav-0-0-11 {
+  .contentnav-0-0-10 {
     display: none;
   }
 }
-  .contentnav-0-0-11 a {
+  .contentnav-0-0-10 a {
     color: #424242;
     display: block;
     opacity: 0.2;
     text-decoration: none;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .contentnav-0-0-11 {
+  body:not(.dark-mode-animate) .contentnav-0-0-10 {
     border-color: #313131;
   }
-  body:not(.dark-mode-animate) .contentnav-0-0-11 a {
+  body:not(.dark-mode-animate) .contentnav-0-0-10 a {
     color: #eeeeee;
   }
-  body:not(.dark-mode-animate) .contentnav-0-0-11 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-11 a.active {
+  body:not(.dark-mode-animate) .contentnav-0-0-10 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-10 a.active {
     color: #f4eeff;
   }
 }
-  body.dark .contentnav-0-0-11 {
+  body.dark .contentnav-0-0-10 {
     border-color: #313131;
   }
-  body.dark .contentnav-0-0-11 a {
+  body.dark .contentnav-0-0-10 a {
     color: #eeeeee;
   }
-  body.dark .contentnav-0-0-11 a:hover, body.dark .contentnav-0-0-11 a.active {
+  body.dark .contentnav-0-0-10 a:hover, body.dark .contentnav-0-0-10 a.active {
     color: #f4eeff;
   }
-  body.dark-mode-animate .contentnav-0-0-11 a {
+  body.dark-mode-animate .contentnav-0-0-10 a {
     transition: color .3s, opacity .3s;
   }
-  .contentnav-0-0-11 a:hover, .contentnav-0-0-11 a.active {
+  .contentnav-0-0-10 a:hover, .contentnav-0-0-10 a.active {
     color: #363062;
     opacity: 1;
   }
-  .contentnav-0-0-11 a.h2 {
+  .contentnav-0-0-10 a.h2 {
     margin-left: 12px;
   }
-  .contentnav-0-0-11 a.h3 {
+  .contentnav-0-0-10 a.h3 {
     margin-left: 24px;
   }
-  .contentnav-0-0-11 a.h4 {
+  .contentnav-0-0-10 a.h4 {
     margin-left: 36px;
   }
-  .contentnav-0-0-11 a.h5 {
+  .contentnav-0-0-10 a.h5 {
     margin-left: 48px;
   }
-  .contentnav-0-0-11 a.h6 {
+  .contentnav-0-0-10 a.h6 {
     margin-left: 60px;
   }
 * {

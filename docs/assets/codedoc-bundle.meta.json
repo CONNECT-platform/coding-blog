@@ -68,6 +68,11 @@
   ],
   "components": [
     {
+      "name": "JoinButton",
+      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-beta/button.tsx",
+      "hash": "9CkyEtMypIrJ2qJioHYW1w=="
+    },
+    {
       "name": "ToCToggle",
       "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
       "hash": "rPglIEEYZYKWUnckwk5vUQ=="
