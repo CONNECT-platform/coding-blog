@@ -1,7 +1,6 @@
 import { state, map, pack } from '@connectv/core';
 import { RendererLike, ref } from '@connectv/html';
 import { ThemedComponentThis } from '@connectv/jss-theme';
-import Airtable from 'airtable';
 
 import { CodedocTheme } from '@codedoc/core/transport';
 import { Overlay, Loading } from '@codedoc/core/components';
@@ -22,8 +21,6 @@ export function JoinBetaOverlay(
   const email = state('');
   const valid = state(false);
   const loading = state(false);
-
-  const list = new Airtable({apiKey: 'keyNGgafrsBl5ZvSZ'}).base('app7ZFupWN8qzySOM')('Beta Waiting List');
 
   pack(name, email).to(map(([name, email]: [string, string]) => {
     return name.length > 0 && email.length > 0 && emailRegex.test(email);
@@ -68,58 +65,35 @@ export function JoinBetaOverlay(
             onclick={() => {
             if (valid.value) {
               loading.value = true;
-              list.select({ 
-                fields: ["email"],
-                filterByFormula: `{email}='${email.value}'`
-              }).firstPage().then(res => {
-                if (res.length > 0) {
-                  loading.value = false;
-                  close();
-                  renderer.render(
-                    <Overlay>
-                      <span class="icon-font" style="font-size: 128; color: #feb72b">done_all</span><br/>
-                      Already Joined!<br/>
-                      <p style="font-size: 24px">
-                        You are already in the waiting list for coding.blog's beta.
-                      </p>
-                    </Overlay>
-                  ).on(document.body);
-                }
-                else {
-                  list.create([{
-                    fields: {
-                      email: email.value,
-                      name: name.value
-                    }
-                  }])
-                  .then(() => {
-                    loading.value = false;
-                    close();
-                    renderer.render(
-                      <Overlay>
-                        <span class="icon-font" style="font-size: 128; color: #75daad">done_all</span><br/>
-                        Success!<br/>
-                        <p style="font-size: 24px">
-                          Thanks for joining coding.blog beta waiting list!
-                        </p>
-                      </Overlay>
-                    ).on(document.body);
-                  })
-                  .catch(() => {
-                    loading.value = false;
-                    close();
-                    renderer.render(
-                      <Overlay>
-                        <span class="icon-font" style="font-size: 128; color: #fd5e53">error</span><br/>
-                        Oops<br/>
-                        <p style="font-size: 24px">
-                          Something went wrong. Please try again in a minute or contact us at 
-                          contact@connect-platform.com.
-                        </p>
-                      </Overlay>
-                    ).on(document.body);
-                  });
-                }
+              fetch(`https://hooks.zapier.com/hooks/catch/3314172/o50q4nd`
+                    + `?name=${encodeURIComponent(name.value)}`
+                    + `&email=${encodeURIComponent(email.value)}`
+              ).then(() => {
+                loading.value = false;
+                close();
+                renderer.render(
+                  <Overlay>
+                    <span class="icon-font" style="font-size: 128; color: #75daad">done_all</span><br/>
+                    Success!<br/>
+                    <p style="font-size: 24px">
+                      Thanks for joining coding.blog beta waiting list!
+                    </p>
+                  </Overlay>
+                ).on(document.body);
+              })
+              .catch(() => {
+                loading.value = false;
+                close();
+                renderer.render(
+                  <Overlay>
+                    <span class="icon-font" style="font-size: 128; color: #fd5e53">error</span><br/>
+                    Oops<br/>
+                    <p style="font-size: 24px">
+                      Something went wrong. Please try again in a minute or contact us at 
+                      contact@connect-platform.com.
+                    </p>
+                  </Overlay>
+                ).on(document.body);
               });
             }
           }}>
