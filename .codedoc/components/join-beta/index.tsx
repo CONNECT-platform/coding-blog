@@ -103,7 +103,7 @@ export function JoinBetaOverlay(
             <span hidden={loading.to(map((_: boolean) => !_))}>
               <Loading/>
             </span>
-            {loading.to(map((_: boolean) => _ ? 'Joining ...' : 'Join Waiting List for Beta'))}
+            {loading.to(map((_: boolean) => _ ? 'Joining ...' : 'Join the Waiting List for Beta'))}
           </button>
         </div>
       </div>

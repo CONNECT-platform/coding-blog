@@ -82,9 +82,14 @@ in exchange for transparent and honest pricing. We do not want to make it a mora
 to dress up an ad like content you might actually like. You should not have to trust our morals. Our
 process should speak it for itself, it should get you the best content for you.
 
-<br><br><br><br>
-<br><br><br><br>
-
+> :DarkLight
+> > :InDark
+> >
+> > ![Figure 1](/img/figure3-dark.svg)
+>
+> > :InLight
+> >
+> > ![Figure 1](/img/figure3.svg)
 
 # How to Get There
 
