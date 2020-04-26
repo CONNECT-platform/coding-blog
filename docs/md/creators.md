@@ -1,0 +1,137 @@
+> :DarkLight
+> > :InDark
+> >
+> > ![Banner](/img/figure4-dark.svg)
+>
+> > :InLight
+> >
+> > ![Banner](/img/figure4.svg)
+
+# For Creators
+
+So you are someone who has some experience and knowledge in coding that you want to share with
+your fellow programmers. Maybe you want to tell the story of a fun and perhaps technically
+challenging project you recently did, maybe you want to share your experience with a new tool,
+or maybe you want to help people avoid a common mistake you often see them make.
+
+You need a blog. Somewhere to share your awesome knowledge.
+
+Hey there is Medium, this ready-made and easy-to-use blogging platform. Sure it basically
+takes ownership of your precious writings, but the benefits are worth it. You start writing,
+then you realize it doesn't have proper syntax highlighting. You embed some code from somewhere
+else, but there is no way to put hints on different lines to tell your readers what each of
+them are for, nor is there a way to highlight the important bits. Still, you power through,
+and when you are finally done, a realization: You are either forced to put your article behind
+a paywall in order for Medium to tell readers about it, or you need to put in many many
+more hours to do the promotion on your own. Not many benefits left, it seems.
+
+Ok so lets instead put up your own blog. Well now there is the overhead of setting up a blog
+system and deploying it, let alone a good readable one with necessary features for properly
+communicating your coding knowledge. A lot of people simply stop here, because they are not
+sure about how much they want to do this. Not you perhaps. You go through with it. You put
+many hours before writing even the first line of the thing you wanted to write, and then
+your glorious blog system is setup. Now comes the writing, which is the fun part, and then again,
+its time to put many hours, perhaps way more than what you have already put in, to make sure
+people who might find your piece useful know it exists. This is not a one-time cost like
+the setup process either. You would need to do this every time.
+
+> :Big
+>
+> We want to change that with `coding.blog`.
+
+---
+
+# How Will It Help?
+
+<br>
+
+## We Spread the Word
+
+We will make sure readers who would enjoy your work, will know about it. Instead of indirectly
+charge them via ads or locking them behind paywalls, we transparently charge them
+the curation cost in return for delivering them the content they would love. Bonus point:
+we will payback to authors whose work readers are paying to know about.
+
+<br>
+
+## You Maintain Ownership
+
+Every blog space on `coding.blog` is a git repository of markdown files and configurations
+indicating how those markdown files are to be represented. You own and maintain that repository.
+We will simply pull it for every publish, build a super-fast and lightweight JAMStack app from
+it, distribute it across our CDNs and make it available on `https://<your>.coding.blog`. We will
+then add it to our curation system and inform readers who we know would love it.
+
+<br>
+
+## The Community Supports You
+
+You will not only be compensated by revenue sharing from curations that get your writings to your
+base. Your blog on `https://<your>.coding.blog` will also be equipped with the tools for the
+community to show their appreciation for your work directly, in form of tips.
+
+<br>
+
+## Best-in-Class Blogging Tools
+
+`coding.blog` is based on [**CODEDOC**](https://codedoc.cc), which is an open-source tool offering
+a feature-rich set of tools for easily building best-in-class docs, wikis and blogs around software.
+You simply use [an intuitive extension of markdown](https://codedoc.cc/docs/markdown/overview),
+and **CODEDOC** ensures that it has optimal usability and readability across all devices.
+
+Want to get a taste of how your blog will look? This website was also created using **CODEDOC**.
+[Check out the repository](https://github.com/CONNECT-platform/coding-blog) to see how simple
+markdown gets you this results.
+
+<br>
+
+## Maximum Customizability
+
+It is your blog in the end, and you tell us how it should look. From the [color scheme](https://codedoc.cc/docs/theme) 
+and [fonts](https://codedoc.cc/docs/config/page#fonts),
+to [the essential structure of the layout](https://codedoc.cc/docs/customization/overview), to even utilizing
+your own [custom components in your markdown](https://codedoc.cc/docs/markdown/custom-components),
+**CODEDOC** doesn't just allow maximum customization of your blog, it encourages it by making it as easy
+as possible.
+
+---
+
+> Note that these are our goals based on our current plans. `coding.blog` is still in early stages
+> of development, and our plans might change as we figure out what works best for readers and creators
+> alike. We will try our best to keep you informed about any such changes to `coding.blog`. To stay informed,
+> simply join our prospective creators list
+>
+> > :Buttons
+> > > :JoinCreatorButton
+
+---
+
+# How Will It Work?
+
+<br>
+
+## Step 1: Create a Repo
+
+Create a repository for your blog using [**CODEDOC**](https://codedoc.cc), and make the repository available somwhere
+(for example on GitHub). You don't even need to put the built HTML files on your repo, as we will pull
+the markdowns and codedoc config and build them for you regardless.
+
+<br>
+
+## Step 2: Connect Your Blog Space
+
+We will setup a process for connecting your blog-space, i.e. `https://<your>.coding.blog`, to your repository.
+The details of this process are still to be figured out, but most probably it will involve a pull-request
+to an open-source repo (this very same repo perhaps) containing the git address we can pull your blog from,
+the name of your space, and an email address we can contact you on. We will then securely send you a webhook
+URL that you can use to inform us when you want your blog to be pulled and rebuilt.
+
+For now, you can simply join our list of prospective creators and tell us your preferred `name.coding.blog`.
+We will keep you updated on the process connecting your blog as we progress towards release of `coding.blog`.
+
+<br>
+
+> :Buttons
+> > :JoinCreatorButton
+
+> :ToCPrevNext

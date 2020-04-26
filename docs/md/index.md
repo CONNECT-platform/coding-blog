@@ -26,7 +26,7 @@ A blog for everything coding.
 > >
 > > ![Figure 1](/img/figure1.svg)
 
-# Where We Are
+# Today ...
 
 Today, it feels like most articles are trying to sell you something. They are,
 as they cannot reach you for free. Curators like Medium need to put work into
@@ -55,13 +55,13 @@ impartial manner, you most probably will not get back what you put in.
 > :DarkLight
 > > :InDark
 > >
-> > ![Figure 1](/img/figure2-dark.svg)
+> > ![Figure 2](/img/figure2-dark.svg)
 >
 > > :InLight
 > >
-> > ![Figure 1](/img/figure2.svg)
+> > ![Figure 2](/img/figure2.svg)
 
-# Where We Want to Go
+# Tomorrow ...
 
 With `coding.blog`, we want to change that. We want to help authors write elegant, modern coding blogs,
 retaining ownership of their work, while avoiding the hassles of setting up their own blog system,
@@ -85,22 +85,25 @@ process should speak it for itself, it should get you the best content for you.
 > :DarkLight
 > > :InDark
 > >
-> > ![Figure 1](/img/figure3-dark.svg)
+> > ![Figure 3](/img/figure3-dark.svg)
 >
 > > :InLight
 > >
-> > ![Figure 1](/img/figure3.svg)
+> > ![Figure 3](/img/figure3.svg)
 
 # How to Get There
 
 `coding.blog` is still in early stages of development. If you are interested, you can join
 us on this exciting journey towards creating the best medium possible for sharing 
-coding knowledge and experience.
+coding knowledge and experience. If you want to write blogs on coding and put them on
+`coding.blog`, you can also check out [this page for more details](/creators) and joining
+our prospective creators list.
 
 <br>
 
 > :Buttons
 > > :JoinButton
 
-<br><br><br><br>
-<br><br><br><br>
+<br><br>
+
+> :ToCPrevNext
