@@ -118,11 +118,11 @@ body.dark-mode-animate .watermark-0-0-10 {
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .footer-0-0-12 {
-    background: rgba(17, 17, 17, 0.85);
+    background: rgba(20, 40, 80, 0.85);
   }
 }
   body.dark .footer-0-0-12 {
-    background: rgba(17, 17, 17, 0.85);
+    background: rgba(20, 40, 80, 0.85);
   }
   .footer-0-0-12 .main {
     overflow: hidden;
@@ -191,12 +191,12 @@ body.dark-mode-animate .watermark-0-0-10 {
     transition: background .3s, border-color .3s;
   }
   body.dark .toc-0-0-13 {
-    background: #1f1f1f;
+    background: #162A5D;
     border-color: #282828;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-13 {
-    background: #1f1f1f;
+    background: #162A5D;
     border-color: #282828;
   }
 }
@@ -240,12 +240,12 @@ body.dark-mode-animate .watermark-0-0-10 {
     border-bottom-right-radius: 0;
   }
   body.dark .toc-0-0-13 a.current {
-    background: hsl(0, 0%, 6.8%);
+    background: hsl(220, 60%, 20%);
     border-color: #282828;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-13 a.current {
-    background: #111111;
+    background: #142850;
     border-color: #282828;
   }
 }
@@ -257,11 +257,11 @@ body.dark-mode-animate .watermark-0-0-10 {
   }
 }
   body.dark .toc-0-0-13 a:hover {
-    background: hsl(0, 0%, 6.8%);
+    background: hsl(220, 60%, 20%);
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .toc-0-0-13 a:hover {
-    background: hsl(0, 0%, 6.8%);
+    background: hsl(220, 60%, 20%);
   }
 }
   body.dark-mode-animate .toc-0-0-13.animated {
@@ -309,7 +309,7 @@ body.dark-mode-animate .watermark-0-0-10 {
     color: #eeeeee;
   }
   body:not(.dark-mode-animate) .contentnav-0-0-16 a:hover, body:not(.dark-mode-animate) .contentnav-0-0-16 a.active {
-    color: #f4eeff;
+    color: #9399ff;
   }
 }
   body.dark .contentnav-0-0-16 {
@@ -319,7 +319,7 @@ body.dark-mode-animate .watermark-0-0-10 {
     color: #eeeeee;
   }
   body.dark .contentnav-0-0-16 a:hover, body.dark .contentnav-0-0-16 a.active {
-    color: #f4eeff;
+    color: #9399ff;
   }
   body.dark-mode-animate .contentnav-0-0-16 a {
     transition: color .3s, opacity .3s;
@@ -373,11 +373,11 @@ body.dark-mode-animate a {
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) a {
-    color: #f4eeff;
+    color: #9399ff;
   }
 }
 body.dark a {
-  color: #f4eeff;
+  color: #9399ff;
 }
 .container {
   margin: 0 auto;
@@ -430,27 +430,27 @@ body.dark-mode-animate blockquote:after {
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) {
     color: #eeeeee;
-    background: #111111;
+    background: #142850;
   }
   body:not(.dark-mode-animate) blockquote {
     color: #cacaca;
-    background: #111111;
+    background: #142850;
   }
   body:not(.dark-mode-animate) blockquote:after {
-    background: radial-gradient(circle at center, #363636 50%, transparent 52%),transparent;
+    background: radial-gradient(circle at center, #27496d 50%, transparent 52%),transparent;
     background-size: 4px 4px;
   }
 }
 body.dark {
   color: #eeeeee;
-  background: #111111;
+  background: #142850;
 }
 body.dark blockquote {
   color: #cacaca;
-  background: #111111;
+  background: #142850;
 }
 body.dark blockquote:after {
-  background: radial-gradient(circle at center, #363636 50%, transparent 52%),transparent;
+  background: radial-gradient(circle at center, #27496d 50%, transparent 52%),transparent;
   background-size: 4px 4px;
 }
 img {
@@ -473,13 +473,13 @@ body.dark-mode-animate code {
   transition: color .3s, background .3s;
 }
 body.dark code {
-  color: #f4eeff;
-  background: #111111;
+  color: #9399ff;
+  background: #142850;
 }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) code {
-    color: #f4eeff;
-    background: #111111;
+    color: #9399ff;
+    background: #142850;
   }
 }
   .darklight-0-0-17 {
@@ -540,14 +540,14 @@ body.dark code {
   }
   body.dark .button-0-0-18 {
     color: black;
-    background: #f4eeff;
-    border-color: #f4eeff;
+    background: #9399ff;
+    border-color: #9399ff;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-18 {
     color: black;
-    background: #f4eeff;
-    border-color: #f4eeff;
+    background: #9399ff;
+    border-color: #9399ff;
   }
 }
   .button-0-0-18:hover {
@@ -556,12 +556,12 @@ body.dark code {
     text-decoration: none;
   }
   body.dark .button-0-0-18:hover {
-    color: #f4eeff;
+    color: #9399ff;
     background: transparent;
   }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .button-0-0-18:hover {
-    color: #f4eeff;
+    color: #9399ff;
     background: transparent;
   }
 }

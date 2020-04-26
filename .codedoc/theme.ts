@@ -8,17 +8,23 @@ export const theme = /*#__PURE__*/createTheme({
     code: '#363062',
   },
   dark: {
-    primary: '#f4eeff',
-    background: '#111111',
-    code: '#f4eeff',
+    primary: '#9399ff',
+    background: '#142850',
+    code: '#9399ff',
   },
   quote: {
     dark: {
-      background: '#111111',
+      background: '#142850',
+      border: '#27496d',
     },
     light: {
       background: '#f5f5f5',
       text: '#9e9e9e',
+    }
+  },
+  toc: {
+    dark: {
+      background: '#162A5D'
     }
   }
 });

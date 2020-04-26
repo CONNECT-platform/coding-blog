@@ -16,16 +16,16 @@ import { ToCPrevNext } from '/Users/eugeneghanizadeh/Documents/projects/connect/
 import { ToCToggle } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { JoinCreatorButton } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-creator/button.tsx';
 import { JoinButton } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-beta/button.tsx';
+import { JoinCreatorButton } from '/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-creator/button.tsx';
 
 const components = {
   'B4qGPIpQsDNCJH8FY6tycg==': ToCPrevNext,
   'rPglIEEYZYKWUnckwk5vUQ==': ToCToggle,
   'Cu+d3UWVY04iUTKlEwuYjQ==': DarkModeSwitch,
   '6bXLvEFrI86RM1mrMs4nDQ==': ConfigTransport,
-  'Q3h3LfieWiBtoqwf+s4nGw==': JoinCreatorButton,
-  '9CkyEtMypIrJ2qJioHYW1w==': JoinButton
+  '9CkyEtMypIrJ2qJioHYW1w==': JoinButton,
+  'Q3h3LfieWiBtoqwf+s4nGw==': JoinCreatorButton
 };
 
 const renderer = getRenderer();
