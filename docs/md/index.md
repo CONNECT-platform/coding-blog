@@ -30,27 +30,17 @@ A blog for everything coding.
 
 Today, it feels like most articles are trying to sell you something. They are,
 as they cannot reach you for free. Curators like Medium need to put work into
-ensuring you get these pieces, while directly and indirectly shifting the cost
-to the authors. Authors, to make up for that cost, fallback on some form of content-marketing.
-Promoting the company they work in, promoting a specific product, or promoting themselves,
-they need some return on the time and effort they put in ensuring their writings reach you.
+ensuring you get the articles you would enjoy. To compensate, they either
+put the content behind paywalls or shift the costs to the authors. Now the authors
+need to compensate. They need to make sure their writings are selling you something.
+
+No one is evil here. The process makes everything either hidden behind a paywall or 
+an ad dressed up as a coding blog. The process needs to change.
 
 > > :Big
 > >
 > > _Today, it feels like most articles are trying to sell you something. They are,
 > > as they cannot reach you for free._
-
-Today, if you want to share your experiences, you need to either give up ownership of
-your content to some platform, or go through lots of work for deploying a readable, usable
-blog. You need to either put your article behind the not-so-lovely Medium
-paywall, or you need to put in many hours to ensure people who would enjoy your work
-hear about it. Today, if you try to just share your experiences with your fellow programmers, in an unbiased,
-impartial manner, you most probably will not get back what you put in.
-
-> > :Big
-> >
-> > _Today, if you try to just share your experiences with your fellow programmers, in an unbiased,
-> > impartial manner, you most probably will not get back what you put in._
 
 > :DarkLight
 > > :InDark
@@ -63,24 +53,50 @@ impartial manner, you most probably will not get back what you put in.
 
 # Tomorrow ...
 
-With `coding.blog`, we want to change that. We want to help authors write elegant, modern coding blogs,
-retaining ownership of their work, while avoiding the hassles of setting up their own blog system,
-and benefiting from being part of a curated platform.
+With `coding.blog`, we want to change that. 
 
-We want to enable authors rely on the support of their community to keep on the great work, instead
-of being forced to put their pieces behind paywalls. As with the spirit of open-source, coding knowledge and 
-experience should be shared freely for anyone who might be able to use it to create something better 
-for the rest of the community, while the authors receive the appreciation and support they deserve for it.
-Thats when we thrive as a community.
+We want to help authors write elegant, modern coding blogs,
+while retaining ownership of their work.
 
-Curation is never free for the readers. Google charges the companies who advertise on it, and they charge
-that cost from you when you buy from them. Medium forces authors to put their work behind paywalls, 
-or indirectly charges them for cost of delivering their work to you.
+We believe authors should rely on the support and appreciation
+of the community for sharing their knowledge, not on support of companies who
+want to utilize every second of your time and attention to convince you
+to buy from them.
 
-We want to deliver to readers content that is pure from any marketing scheme or dishonest intentions,
-in exchange for transparent and honest pricing. We do not want to make it a moral decision of how much
-to dress up an ad like content you might actually like. You should not have to trust our morals. Our
-process should speak it for itself, it should get you the best content for you.
+We want quality writings on coding to be freely available to everyone,
+without them needing to turn into marketing content in disguise. The software
+community has thrived on sharing openly and honestly. This is how we should
+move forward.
+
+> :Big
+>
+> _How?_
+
+- `coding.blog` will make every article available for free, while allowing
+the community to support the authors by tipping them.
+
+- `coding.blog` will offer per-user curated lists to readers who want it, for a small monthly fee.
+Curation is never really free, but with transparent direct pricing, it can become
+free of content that is there only to convince you to buy something, leaving only content
+that you would truly enjoy.
+
+- `coding.blog` will provide an [open-source toolchain](https://codedoc.cc) for building 
+elegant blogs, offering convenience of platforms like Medium, rich features specificly 
+designed for writing about programming, and customizability that only comes 
+with open-source tools.
+
+- `coding.blog` will pull new content from git repos maintained by authors, build
+them using the same toolchain, publish them and queue them for curation. In other words,
+the authors retain full control over their work.
+
+> If you are curious about how will `coding.blog` work for creators and authors, checkout
+> [this section](/creators#how-will-it-help) of the ["For Creators"](/creators) page. Note
+> that `coding.blog` is still in early development stages and these details might change
+> as we better figure out what works and what doesn't.
+>
+> > :Buttons
+> > > :Button label=For Creators, url=/creators
+
 
 > :DarkLight
 > > :InDark
@@ -95,15 +111,23 @@ process should speak it for itself, it should get you the best content for you.
 
 `coding.blog` is still in early stages of development. If you are interested, you can join
 us on this exciting journey towards creating the best medium possible for sharing 
-coding knowledge and experience. If you want to write blogs on coding and put them on
-`coding.blog`, you can also check out [this page for more details](/creators) and joining
-our prospective creators list.
+coding knowledge and experience. Simply enlist for the waiting list for `coding.blog`'s
+beta.
 
 <br>
 
 > :Buttons
 > > :JoinButton
 
-<br><br>
+<br>
+
+If you want to write blogs on coding and put them on
+`coding.blog`, you can also check out [this page for more details](/creators) and joining
+our prospective creators list.
+
+<br>
+
+> :Buttons
+> > :JoinCreatorButton
 
 > :ToCPrevNext

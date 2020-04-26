@@ -511,3 +511,64 @@ body.dark code {
     opacity: 0;
   }
 }
+  .button-0-0-18 {
+    color: white;
+    border: 2px solid #363062;
+    cursor: pointer;
+    height: 40px;
+    display: inline-flex;
+    outline: none;
+    padding: 4px 16px;
+    font-size: 16px;
+    min-width: 96px;
+    background: #363062;
+    align-items: center;
+    margin-left: 8px;
+    border-radius: 3px;
+    vertical-align: middle;
+    justify-content: center;
+    text-decoration: none;
+  }
+  body.dark-mode-animate .button-0-0-18 {
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .button-0-0-18.icon {
+    width: 40px;
+    padding: 0;
+    font-size: 24px;
+    min-width: 0;
+  }
+  body.dark .button-0-0-18 {
+    color: black;
+    background: #f4eeff;
+    border-color: #f4eeff;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .button-0-0-18 {
+    color: black;
+    background: #f4eeff;
+    border-color: #f4eeff;
+  }
+}
+  .button-0-0-18:hover {
+    color: #363062;
+    background: transparent;
+    text-decoration: none;
+  }
+  body.dark .button-0-0-18:hover {
+    color: #f4eeff;
+    background: transparent;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .button-0-0-18:hover {
+    color: #f4eeff;
+    background: transparent;
+  }
+}
+a.button-0-0-18 {
+  height: 28px;
+}
+a.button-0-0-18.icon {
+  width: 36px;
+  height: 36px;
+}

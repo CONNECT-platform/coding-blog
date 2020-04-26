@@ -15,7 +15,7 @@ export function JoinCreatorButton(
   const classes = this.theme.classes(ButtonStyle);
   return <button class={classes.button}
     onclick={() => renderer.render(<JoinCreatorOverlay/>).on(document.body)}>
-      Join the Prospective Creator List
+      Join the Prospective Creators List
   </button>;
 }
 

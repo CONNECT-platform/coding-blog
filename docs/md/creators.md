@@ -16,28 +16,40 @@ or maybe you want to help people avoid a common mistake you often see them make.
 
 You need a blog. Somewhere to share your awesome knowledge.
 
-Hey there is Medium, this ready-made and easy-to-use blogging platform. Sure it basically
-takes ownership of your precious writings, but the benefits are worth it. You start writing,
-then you realize it doesn't have proper syntax highlighting. You embed some code from somewhere
-else, but there is no way to put hints on different lines to tell your readers what each of
-them are for, nor is there a way to highlight the important bits. Still, you power through,
-and when you are finally done, a realization: You are either forced to put your article behind
-a paywall in order for Medium to tell readers about it, or you need to put in many many
-more hours to do the promotion on your own. Not many benefits left, it seems.
+<br>
 
-Ok so lets instead put up your own blog. Well now there is the overhead of setting up a blog
-system and deploying it, let alone a good readable one with necessary features for properly
-communicating your coding knowledge. A lot of people simply stop here, because they are not
-sure about how much they want to do this. Not you perhaps. You go through with it. You put
-many hours before writing even the first line of the thing you wanted to write, and then
-your glorious blog system is setup. Now comes the writing, which is the fun part, and then again,
-its time to put many hours, perhaps way more than what you have already put in, to make sure
-people who might find your piece useful know it exists. This is not a one-time cost like
-the setup process either. You would need to do this every time.
+**Hey there is Medium, this ready-made blogging platform.** Sure it basically
+takes ownership of your precious writings, but the benefits are worth it.
+
+You start writing, then you realize it doesn't have proper syntax highlighting. 
+You embed some code from somewhere else, but there is no way to put hints on different 
+lines to tell your readers what each of them are for, nor is there a way to highlight the 
+important bits. 
+
+Still, you power through,and when you are finally done, you realize something: 
+You are either forced to put your article behind a paywall in order for Medium to tell readers 
+about it, or you need to put in many many more hours to do the promotion on your own.
+Not many benefits left, it seems.
+
+<br>
+
+**Ok so lets instead put up your own blog.** Yes its a lot of work, not just
+to get a domain and find a proper host but also to ensure you have the tools to make a modern,
+readable blog.
+
+A lot of people simply stop here, because they are not sure about how much they want to
+do this. Not you perhaps. You go through with it. You put many hours before writing even the
+first line of the thing you wanted to write, until your glorious blog system is setup.
+
+Then you write your piece. Done? far from it. Now comes in the time to tell people about
+it. I mean there is no point in sharing if there is no one to enjoy it in the end, right?
+The worst part: _You should do this every time. Every. Single. Time._
+
+<br>
 
 > :Big
 >
-> We want to change that with `coding.blog`.
+> We want to change that with `coding.blog`. All of that.
 
 ---
 
@@ -47,10 +59,11 @@ the setup process either. You would need to do this every time.
 
 ## We Spread the Word
 
-We will make sure readers who would enjoy your work, will know about it. Instead of indirectly
-charge them via ads or locking them behind paywalls, we transparently charge them
-the curation cost in return for delivering them the content they would love. Bonus point:
-we will payback to authors whose work readers are paying to know about.
+We will make sure readers who would enjoy your work, will know about it. Instead of sneakily
+charging them via ads or locking them behind paywalls, we will give free access to all pieces
+and transparently charge readers who want in return for delivering them personalized curated lists 
+of content they would love. Bonus point: we will also payback the authors whose work readers
+are paying to stay informed about.
 
 <br>
 
@@ -66,9 +79,10 @@ then add it to our curation system and inform readers who we know would love it.
 
 ## The Community Supports You
 
-You will not only be compensated by revenue sharing from curations that get your writings to your
-base. Your blog on `https://<your>.coding.blog` will also be equipped with the tools for the
-community to show their appreciation for your work directly, in form of tips.
+You will not only be compensated by curation revenue, 
+your blog on `https://<your>.coding.blog` will also be automatically equipped with the 
+tools for the community to show their appreciation for your work directly, 
+in form of tips.
 
 <br>
 
@@ -127,7 +141,7 @@ the name of your space, and an email address we can contact you on. We will then
 URL that you can use to inform us when you want your blog to be pulled and rebuilt.
 
 For now, you can simply join our list of prospective creators and tell us your preferred `name.coding.blog`.
-We will keep you updated on the process connecting your blog as we progress towards release of `coding.blog`.
+We will keep you updated on the process of connecting your blog as we progress with development of `coding.blog`.
 
 <br>
 

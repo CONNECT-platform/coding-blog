@@ -27,7 +27,7 @@ to security reasons), which is also how we plan to move forward with `coding.blo
 >
 > Has worked 8 years in software industry, most notably in [CafeBazaar](https://cafebazaar.ir/?l=en),
 > as a product manager, team leader, UX designer, backend/frontend developer, etc. Spends most of his
-> time tending to open-source projects that generate zero revenue (and obviously not the guy who wrote this).
+> time tending to open-source projects that generate zero revenue.
 
 ---
 
