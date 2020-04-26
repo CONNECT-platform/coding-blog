@@ -101,6 +101,9 @@ export function JoinCreatorOverlay(
             <span hidden={checking.to(map((_: boolean) => !_))}>
               <Loading/> Checking availability ...
             </span>
+            <span hidden={pack(available, checking).to(map(([a, c]: [boolean, boolean]) => !a || c))}>
+            <span class="icon-font" style="vertical-align: middle">done_all</span> Domain available
+            </span>
           </div>
         </label>
         <input _state={domain} _ref={domainInput} placeholder="Domain, e.g. dude.coding.blog" type="text"/>
