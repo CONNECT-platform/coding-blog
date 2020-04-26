@@ -20,6 +20,7 @@ export function JoinCreatorOverlay(
 ) {
   const classes = this.theme.classes(JoinBetaOverlayStyle);
   const holder = ref<HTMLElement>();
+  const domainInput = ref<HTMLInputElement>();
 
   const domain = state('your.coding.blog');
   const email = state('');
@@ -33,17 +34,21 @@ export function JoinCreatorOverlay(
   })).to(valid);
 
   const postfix = domain.to(sink(() => {
-    const match = /^(\w+)\.\w+\.\w+$/.exec(domain.value) || [];
-    domain.value = (match[1] || '') + '.coding.blog';
+    const match = /^(.+)?\.coding\.blog(.+)?$/.exec(domain.value) || [];
+    const not = /[^\w|\-]/
+    const name = (match[1] || '').split(not).join('') + (match[2] || '').split(not).join('');
+    domain.value = name + '.coding.blog';
+    if ((domainInput.$.selectionStart || 0) > name.length || (domainInput.$.selectionEnd || 0) > name.length)
+      domainInput.$.setSelectionRange(name.length, name.length);
   }));
 
   domain
   .to(sink(() => available.value = false))
-  .to(filter((domain: string) => domainRegex.test(domain)))
   .to(sink(() => checking.value = true))
   .to(pipe(debounceTime(1000)))
   .to(map((domain: string, done) => isAvailable(domain).then(done)))
   .to(sink(() => checking.value = false))
+  .to(map((x: boolean) => domainRegex.test(domain.value) && x))
   .to(available);
 
   const close = () => { 
@@ -98,7 +103,7 @@ export function JoinCreatorOverlay(
             </span>
           </div>
         </label>
-        <input _state={domain} placeholder="Domain, e.g. dude.coding.blog" type="text"/>
+        <input _state={domain} _ref={domainInput} placeholder="Domain, e.g. dude.coding.blog" type="text"/>
         <br/>
         <div style="text-align:right">
           <button disabled={pack(valid, loading).to(map(([v,l]: [boolean, boolean]) => !v || l))}
