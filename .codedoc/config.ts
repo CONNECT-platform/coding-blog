@@ -13,9 +13,6 @@ import { JoinCreatorButton$ } from './components/join-creator/button';
 
 export const config = /*#__PURE__*/configuration({
   theme,
-  dest: {
-    namespace: '/coding-blog'
-  },
   page: {
     title: {
       base: 'coding.blog'

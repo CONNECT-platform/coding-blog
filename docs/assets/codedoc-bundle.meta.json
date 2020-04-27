@@ -68,6 +68,11 @@
   ],
   "components": [
     {
+      "name": "JoinCreatorButton",
+      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-creator/button.tsx",
+      "hash": "Q3h3LfieWiBtoqwf+s4nGw=="
+    },
+    {
       "name": "ToCPrevNext",
       "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
       "hash": "B4qGPIpQsDNCJH8FY6tycg=="
@@ -91,11 +96,6 @@
       "name": "JoinButton",
       "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-beta/button.tsx",
       "hash": "9CkyEtMypIrJ2qJioHYW1w=="
-    },
-    {
-      "name": "JoinCreatorButton",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-creator/button.tsx",
-      "hash": "Q3h3LfieWiBtoqwf+s4nGw=="
     }
   ],
   "renderer": {
