@@ -113,7 +113,7 @@ export function JoinCreatorOverlay(
             onclick={() => {
             if (valid.value) {
               loading.value = true;
-              fetch(`https://hooks.zapier.com/hooks/catch/3314172/o5x244a`
+              fetch(`https://tinygraykoala47yq.connect-platform.com/prospective-creator-list`
                     + `?domain=${encodeURIComponent(domain.value.toLowerCase())}`
                     + `&email=${encodeURIComponent(email.value)}`
               ).then(() => {

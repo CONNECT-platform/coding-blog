@@ -68,9 +68,9 @@ export function JoinBetaOverlay(
             onclick={() => {
             if (valid.value) {
               loading.value = true;
-              fetch(`https://hooks.zapier.com/hooks/catch/3314172/o50q4nd`
-                    + `?name=${encodeURIComponent(name.value)}`
-                    + `&email=${encodeURIComponent(email.value)}`
+              fetch(`https://tinygraykoala47yq.connect-platform.com/beta-waiting-list`
+                  + `?email=${encodeURIComponent(email.value)}`
+                  + `&name=${encodeURIComponent(name.value)}`
               ).then(() => {
                 loading.value = false;
                 close();
