@@ -12,6 +12,16 @@ import { isAvailable } from './is-available';
 const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 const domainRegex = /^(\w+)\.coding\.blog$/;
+const bannedDomains = [
+  /^ww[0-9]*\.coding\.blog$/,
+  /^www[0-9]*\.coding\.blog$/,
+  /^dns[0-9]*\.coding\.blog$/,
+  /^connect[0-9]*\.coding\.blog$/,
+  /^accounts?\.coding\.blog$/,
+  /^support\.coding\.blog$/,
+  /^admin(istrator)?\.coding\.blog$/,
+];
+
 
 export function JoinCreatorOverlay(
   this: ThemedComponentThis<CodedocTheme>,
@@ -36,7 +46,8 @@ export function JoinCreatorOverlay(
   const postfix = domain.to(sink(() => {
     const match = /^(.+)?\.coding\.blog(.+)?$/.exec(domain.value) || [];
     const not = /[^\w|\-]/
-    const name = (match[1] || '').split(not).join('') + (match[2] || '').split(not).join('');
+    const name = (match[1] || '').toLowerCase().split(not).join('') + 
+                 (match[2] || '').toLowerCase().split(not).join('');
     domain.value = name + '.coding.blog';
     if ((domainInput.$.selectionStart || 0) > name.length || (domainInput.$.selectionEnd || 0) > name.length)
       domainInput.$.setSelectionRange(name.length, name.length);
@@ -48,7 +59,14 @@ export function JoinCreatorOverlay(
   .to(pipe(debounceTime(1000)))
   .to(map((domain: string, done) => isAvailable(domain).then(done)))
   .to(sink(() => checking.value = false))
-  .to(map((x: boolean) => domainRegex.test(domain.value) && x))
+  .to(map((x: boolean) => x
+      && domainRegex.test(domain.value) 
+      && bannedDomains.every(d => {
+        const res = d.test(domain.value);
+        if (res) console.log(d);
+        return !res;
+      })
+  ))
   .to(available);
 
   const close = () => { 
