@@ -12,7 +12,7 @@
 >
 > This is **`coding.blog`**
 
-A blog for everything coding.
+A blog platform for developers, for everything coding.
 *Not* for content-marketing disguised as programming tutorials.
 *Not* for advertisement blended with sincerely interesting pieces.
 *Quality*. *Articles*. *About*. *Coding*.
@@ -31,8 +31,8 @@ A blog for everything coding.
 Today, it feels like most articles are trying to sell you something. They are,
 as they cannot reach you for free. Curators like Medium need to put work into
 ensuring you get the articles you would enjoy. To compensate, they either
-put the content behind paywalls or shift the costs to the authors. Now the authors
-need to compensate. They need to make sure their writings are selling you something.
+put the content behind paywalls or shift the costs to the authors. Now authors
+need to bare the cost, they need to make sure their writings are selling you something.
 
 No one is evil here. The process makes everything either hidden behind a paywall or 
 an ad dressed up as a coding blog. The process needs to change.
@@ -60,11 +60,11 @@ while retaining ownership of their work.
 
 We believe authors should rely on the support and appreciation
 of the community for sharing their knowledge, not on support of companies who
-want to utilize every second of your time and attention to convince you
-to buy from them.
+monetize your time and attention to convince you to buy from them.
 
-We want quality writings on coding to be freely available to everyone,
-without them needing to turn into marketing content in disguise. The software
+We want quality writings on coding to be freely available to everyone.
+We want to empower authors so that they do not have to disguise their
+content to sell other stuff to you indirectly. The software
 community has thrived on sharing openly and honestly. This is how we should
 move forward.
 
@@ -87,7 +87,7 @@ with open-source tools.
 
 - `coding.blog` will pull new content from git repos maintained by authors, build
 them using the same toolchain, publish them and queue them for curation. In other words,
-the authors retain full control over their work.
+the authors retain full control and ownership over their work.
 
 > If you are curious about how will `coding.blog` work for creators and authors, checkout
 > [this section](/creators#how-will-it-help) of the ["For Creators"](/creators) page. Note

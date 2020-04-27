@@ -16,6 +16,29 @@ export const config = /*#__PURE__*/configuration({
   page: {
     title: {
       base: 'coding.blog'
+    },
+    favicon: '/favicon.ico',
+    meta: {
+      subject: 'A Blog for Everything Coding',
+      description: 'An open-source blog system for coding and coders. No content-marketing, no ads in disguise. Pure quality articles.',
+      keywords: [
+        'blog',
+        'article',
+        'software',
+        'programming',
+        'code',
+        'open-source',
+        'open source',
+        'coding',
+        'tech',
+        'IT',
+        'blogging',
+        'tutorials',
+        'articles',
+        'convenient',
+        'beautiful',
+        'modern',
+      ]
     }
   },
   markdown: {

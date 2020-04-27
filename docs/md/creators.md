@@ -26,22 +26,22 @@ You embed some code from somewhere else, but there is no way to put hints on dif
 lines to tell your readers what each of them are for, nor is there a way to highlight the 
 important bits. 
 
-Still, you power through,and when you are finally done, you realize something: 
+Still, you power through, and when you are finally done, you realize something: 
 You are either forced to put your article behind a paywall in order for Medium to tell readers 
-about it, or you need to put in many many more hours to do the promotion on your own.
+about it, or you need to put in many, many more hours to do the promotion on your own.
 Not many benefits left, it seems.
 
 <br>
 
-**Ok so lets instead put up your own blog.** Yes its a lot of work, not just
+**Ok so lets instead set-up your own, custom blog.** Yes its a lot of work, not just
 to get a domain and find a proper host but also to ensure you have the tools to make a modern,
 readable blog.
 
 A lot of people simply stop here, because they are not sure about how much they want to
 do this. Not you perhaps. You go through with it. You put many hours before writing even the
-first line of the thing you wanted to write, until your glorious blog system is setup.
+first line of the thing you wanted to write about, until your glorious blog system is setup.
 
-Then you write your piece. Done? far from it. Now comes in the time to tell people about
+Then you write your piece. Done? far from it. Now comes the time to tell people about
 it. I mean there is no point in sharing if there is no one to enjoy it in the end, right?
 The worst part: _You should do this every time. Every. Single. Time._
 
