@@ -61,11 +61,7 @@ export function JoinCreatorOverlay(
   .to(sink(() => checking.value = false))
   .to(map((x: boolean) => x
       && domainRegex.test(domain.value) 
-      && bannedDomains.every(d => {
-        const res = d.test(domain.value);
-        if (res) console.log(d);
-        return !res;
-      })
+      && bannedDomains.every(d => !d.test(domain.value))
   ))
   .to(available);
 
