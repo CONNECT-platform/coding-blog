@@ -2,105 +2,105 @@
   "init": [
     {
       "name": "initJssCs",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
-      "hash": "VDCPNNUH5NZkf6WWTOZCog=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/setup-jss.js",
+      "hash": "xGjnHtvbsQkEZWu1t2EMfQ=="
     },
     {
       "name": "installTheme",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/content/theme.ts",
-      "hash": "ZcJ84w4K/6++dOgrb882OA=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/content/theme.ts",
+      "hash": "Eae+e6cqLX2Mx9Ge46534A=="
     },
     {
       "name": "codeSelection",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
-      "hash": "I+DArAmoiT+h+fgqhs4Tow=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/selection.js",
+      "hash": "q9O36tbRS9dZ/1kngD3K1g=="
     },
     {
       "name": "sameLineLengthInCodes",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
-      "hash": "OofsNA3rvxJT8jFxYvSX7Q=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/same-line-length.js",
+      "hash": "3PyItxEYROI9YkI+h1fnIQ=="
     },
     {
       "name": "initHintBox",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
-      "hash": "l3N4EOWJuxh+w8fEz09Tfg=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-hint/index.js",
+      "hash": "OLhT1wlCGNd2o+YXeIYJRg=="
     },
     {
       "name": "initCodeLineRef",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
-      "hash": "nzD9JW255dRrqPDo8SpCmQ=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-ref/index.js",
+      "hash": "VJVXuZHuMRUdAzFwujaHSQ=="
     },
     {
       "name": "initSmartCopy",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
-      "hash": "QHNZZEDiSt3owC24ZTWIDQ=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/smart-copy.js",
+      "hash": "4FYD6KAJHmlF45vGiCIpHQ=="
     },
     {
       "name": "copyHeadings",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
-      "hash": "LPvUoCM/J4rr1GwhiqDY2Q=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/heading/copy-headings.js",
+      "hash": "DEG3dFKBeFepclqcDoP4bw=="
     },
     {
       "name": "contentNavHighlight",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
-      "hash": "Kxk6G7+AWAOKawhKKO873A=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/contentnav/highlight.js",
+      "hash": "xthZsLwFXbSaBAaZqkJOaw=="
     },
     {
       "name": "loadDeferredIFrames",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
-      "hash": "LuBE8+Urs+FqB28Z5siHBw=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/deferred-iframe.js",
+      "hash": "Uj79f0sc3nv4cUIEEeozGg=="
     },
     {
       "name": "smoothLoading",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
-      "hash": "6MFdELC+sFEjE3BKqeOrIg=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/smooth-loading.js",
+      "hash": "7YSqcoyHYcxJQggPJsX0eg=="
     },
     {
       "name": "tocHighlight",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
-      "hash": "SGKlGgBCeg4JmrEluLGTLA=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toc-highlight.js",
+      "hash": "4WlWzYhuw2Wh01wI8nsFpw=="
     },
     {
       "name": "postNavSearch",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
-      "hash": "nS9ImrPFzvOfnd+HaOPWiA=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
+      "hash": "751MAHI/SlMnmr8/Tfl0ww=="
     }
   ],
   "components": [
     {
       "name": "ToCPrevNext",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "B4qGPIpQsDNCJH8FY6tycg=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "LwMmQh4ocAvMl3KEQwIwbA=="
     },
     {
       "name": "ToCToggle",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
-      "hash": "rPglIEEYZYKWUnckwk5vUQ=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js",
+      "hash": "Y1n70jAnr09ZOarvFk4iaQ=="
     },
     {
       "name": "DarkModeSwitch",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
-      "hash": "Cu+d3UWVY04iUTKlEwuYjQ=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js",
+      "hash": "9YlkltvP6FYr6bYgtAh4Ew=="
     },
     {
       "name": "ConfigTransport",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
-      "hash": "6bXLvEFrI86RM1mrMs4nDQ=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js",
+      "hash": "oaFrqfOoxxRMwluwPaYCzw=="
     },
     {
       "name": "JoinCreatorButton",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-creator/button.tsx",
-      "hash": "Q3h3LfieWiBtoqwf+s4nGw=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/components/join-creator/button.tsx",
+      "hash": "mDpGZd+WvWCgVvTcZCyvEg=="
     },
     {
       "name": "JoinButton",
-      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/components/join-beta/button.tsx",
-      "hash": "9CkyEtMypIrJ2qJioHYW1w=="
+      "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/components/join-beta/button.tsx",
+      "hash": "3bgFieq9H5R/a1mQgtxfLA=="
     }
   ],
   "renderer": {
     "name": "getRenderer",
-    "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
-    "hash": "Gnfw6O2OE6+TQrHJHvb9/A=="
+    "filename": "/Users/mustaphabenchaaben/Code/codedoc/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/renderer.js",
+    "hash": "tomJEE73gn/qQXxtdMIuwQ=="
   }
 }
