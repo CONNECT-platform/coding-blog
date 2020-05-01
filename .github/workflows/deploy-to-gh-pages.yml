@@ -21,6 +21,7 @@ jobs:
           # copy assets
           cp banner.svg dist/
           cp banner-dark.svg dist/
+          cp favicon.ico dist/
           cp -r img/ dist/img/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3

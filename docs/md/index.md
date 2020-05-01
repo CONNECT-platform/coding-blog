@@ -32,7 +32,7 @@ Today, it feels like most articles are trying to sell you something. They are,
 as they cannot reach you for free. Curators like Medium need to put work into
 ensuring you get the articles you would enjoy. To compensate, they either
 put the content behind paywalls or shift the costs to the authors. Now authors
-need to bare the cost, they need to make sure their writings are selling you something.
+need to bear the cost, they need to make sure their writings are selling you something.
 
 No one is evil here. The process makes everything either hidden behind a paywall or 
 an ad dressed up as a coding blog. The process needs to change.
@@ -55,11 +55,10 @@ an ad dressed up as a coding blog. The process needs to change.
 
 With `coding.blog`, we want to change that. 
 
-We want to help authors write elegant, modern coding blogs,
-while retaining ownership of their work.
+We want to help authors write elegant, modern coding blogs while retaining ownership of their work.
 
 We believe authors should rely on the support and appreciation
-of the community for sharing their knowledge, not on support of companies who
+of the community for sharing their knowledge, not on the support of companies who
 monetize your time and attention to convince you to buy from them.
 
 We want quality writings on coding to be freely available to everyone.
@@ -81,7 +80,7 @@ free of content that is there only to convince you to buy something, leaving onl
 that you would truly enjoy.
 
 - `coding.blog` will provide an [open-source toolchain](https://codedoc.cc) for building 
-elegant blogs, offering convenience of platforms like Medium, rich features specificly 
+elegant blogs, offering the convenience of platforms like Medium, rich features specificly 
 designed for writing about programming, and customizability that only comes 
 with open-source tools.
 
