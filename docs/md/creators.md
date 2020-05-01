@@ -95,7 +95,7 @@ and **CODEDOC** ensures that it has optimal usability and readability across all
 
 Want to get a taste of how your blog will look? This website was also created using **CODEDOC**.
 [Check out the repository](https://github.com/CONNECT-platform/coding-blog) to see how simple
-markdown gets you this results.
+markdown gets you these results.
 
 <br>
 

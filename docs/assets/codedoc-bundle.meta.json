@@ -64,6 +64,11 @@
       "name": "postNavSearch",
       "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
       "hash": "nS9ImrPFzvOfnd+HaOPWiA=="
+    },
+    {
+      "name": "reloadOnChange",
+      "filename": "/Users/eugeneghanizadeh/Documents/projects/connect/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/serve/reload.js",
+      "hash": "vJHM+VbdDpgdHR+IMlOF6w=="
     }
   ],
   "components": [
