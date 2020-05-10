@@ -4,7 +4,7 @@ import { AccountStatus, AccountData } from './types';
 
 
 const _LS_Login_Token_Key = '__coding_blog_login_token';
-const _Q_Login_Token_Key = 'login-token';
+const _Q_Login_Token_Key = 'login_token';
 const _API_URL = 'https://api.coding.blog';
 
 
