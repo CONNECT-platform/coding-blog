@@ -5,13 +5,28 @@ import { AccountStatus, AccountData } from './types';
 
 const _LS_Login_Token_Key = '__coding_blog_login_token';
 const _Q_Login_Token_Key = 'login-token';
+const _API_URL = 'https://api.coding.blog';
 
-// TODO: deprecate this
-const _MockToken = () => [
-  Math.random().toString(36).substring(2), 
-  Math.random().toString(36).substring(2), 
-  Math.random().toString(36).substring(2),
-  Math.random().toString(36).substring(2)].join('');
+
+interface AccountResponse {
+  user: {
+    email: string;
+    name?: string;
+    blog?: {
+      name: string;
+      git?: {
+        url: string;
+      },
+      publish_url?: string;
+    }
+  }
+}
+
+interface WebhookResponse {
+  result: {
+    publish_url: string;
+  }
+}
 
 export class AccountService {
   static __instance: AccountService;
@@ -55,23 +70,37 @@ export class AccountService {
   async fetchData() {
     if (this.token) {
       this.status.next('Checking');
+      await new Promise((resolve, reject) => {
+        ajax.getJSON<AccountResponse>(_API_URL + `/account?token=${this.token}`).subscribe(
+          response => {
+            if (response.user) {
+              console.log(response.user);
 
-      // TODO: connect to API
-      // START OF MOCK
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      if (this.token === 'eugene') {
-        this.data.next({
-          email: 'ghanizadeh.eugene@gmail.com',
-          domain: 'eugene.coding.blog',
-          repo: 'https://github.com/loreanvictor/techblog.git',
-          publishUrl: 'https://api.coding.blog/publish?token=AWDHasd8asDSD&=asd.asdSDHIUgASD89878a7dss+=='
-        });
-        this.status.next('LoggedIn');
-      } else {
-        this.status.next('NotLoggedIn');
-        throw new Error('Wrong Token');
-      }
-      // END OF MOCK
+              const user: AccountData  = {
+                email: response.user.email,
+                name: response.user.name,
+              };
+
+              if (response.user.blog) {
+                user.domain = response.user.blog.name + '.coding.blog';
+                if (response.user.blog.git) user.repo = response.user.blog.git.url;
+                if (response.user.blog.publish_url) user.publishUrl = response.user.blog.publish_url;
+              }
+
+              this.data.next(user); // TODO: complete this
+              this.status.next('LoggedIn');
+              resolve();
+            } else {
+              this.status.next('NotLoggedIn');
+              reject();
+            }
+          },
+          err => {
+            this.status.next('NotLoggedIn');
+            reject(err);
+          },
+        );
+      });
     }
   }
 
@@ -81,49 +110,64 @@ export class AccountService {
   }
 
   async sendLoginEmail(email: string) {
-    // TODO: connect to API
-    // START OF MOCK
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    console.log('SENDING LOGIN LINK TO:: ' + email);
-    // END OF MOCK
+    await new Promise((resolve, reject) => {
+      ajax.post(_API_URL + `/login?email=${encodeURIComponent(email)}`).subscribe(
+        () => resolve(),
+        (error) => reject(error),
+      );
+    });
   }
 
   async updateName(name: string) {
-    // TODO: connect to API
-    // START OF MOCK
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    this.data.next(Object.assign({}, this.data.value, {
-      name
-    }));
-    // END OF MOCK
+    await new Promise((resolve, reject) => {
+      ajax.put(_API_URL + `/user/name?name=${encodeURIComponent(name)}&token=${this.token}`)
+      .subscribe(
+        () => {
+          this.data.next(Object.assign({}, this.data.value, { name }));
+          resolve();
+        },
+        err => reject(err),
+      )
+    });
   }
 
   async bindRepo(url: string) {
-    // TODO: connect to API
-    // START OF MOCK
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    this.data.next(Object.assign({}, this.data.value, {
-      repo: url,
-      publishUrl: 'https://api.coding.blog/publish?token=' + _MockToken(),
-    }));
-    // END OF MOCK
+    await new Promise((resolve, reject) => {
+      ajax.post(_API_URL + `/blog/git?git_url=${encodeURIComponent(url)}&token=${this.token}`)
+      .subscribe(
+        response => {
+          this.data.next(Object.assign({}, this.data.value, { 
+            repo: url,
+            publishUrl: response.response.result.publish_url,
+          }));
+          resolve();
+        },
+        err => reject(err)
+      );
+    });
   }
 
   async refreshPublishUrl() {
-    // TODO: connect to API
-    // START OF MOCK
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    this.data.next(Object.assign({}, this.data.value, {
-      publishUrl: 'https://api.coding.blog/publish?token=' + _MockToken(),
-    }));
-    // END OF MOCK
+    await new Promise((resolve, reject) => {
+      ajax.getJSON<WebhookResponse>(_API_URL + `/webhook/create?token=${this.token}&refresh=true`)
+      .subscribe(
+        response => {
+          this.data.next(Object.assign({}, this.data.value, { 
+            publishUrl: response.result.publish_url
+          }));
+          resolve();
+        },
+        err => reject(err)
+      );
+    });
   }
 
   async publishBlog() {
-    // TODO: connect to API
-    // START OF MOCK
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    console.log('PUBLISHING AT:: ' + this.data.value?.publishUrl);
-    // END OF MOCK
+    if (this.data.value?.publishUrl) {
+      const url = this.data.value?.publishUrl;
+      await new Promise((resolve, reject) => {
+        ajax.post(url).subscribe(() => resolve(), err => reject(err));
+      });
+    }
   }
 }
