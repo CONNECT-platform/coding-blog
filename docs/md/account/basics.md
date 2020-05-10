@@ -52,4 +52,15 @@
 > >
 > > > :LoginButton
 
+<br><br>
+
+> :DarkLight
+> > :InLight
+> >
+> > ![banner](/img/account-banner.svg)
+>
+> > :InDark
+> >
+> > ![banner](/img/account-banner-dark.svg)
+
 > :ToCPrevNext prev=false

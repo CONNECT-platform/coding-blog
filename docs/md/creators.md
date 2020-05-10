@@ -127,20 +127,20 @@ as possible.
 ## Step 1: Create a Repo
 
 Create a repository for your blog using [**CODEDOC**](https://codedoc.cc), and make the repository available somwhere
-(for example on GitHub). You don't even need to put the built HTML files on your repo, as we will pull
-the markdowns and codedoc config and build them for you regardless.
+(for example on GitHub). It is highly recommended to fork 
+[this boilerplate project](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork) as it is equipped with
+additional components specifically designed for blogging.
 
 <br>
 
 ## Step 2: Connect Your Blog Space
 
-We will setup a process for connecting your blog-space, i.e. `https://<your>.coding.blog`, to your repository.
-The details of this process are still to be figured out, but most probably it will involve a pull-request
-to an open-source repo (this very same repo perhaps) containing the git address we can pull your blog from,
-the name of your space, and an email address we can contact you on. We will then securely send you a webhook
-URL that you can use to inform us when you want your blog to be pulled and rebuilt.
+If you do have an account, you can connect your domain, i.e. `<your>.coding.blog`, to your repo, via [your account's page](/account/blog).
+Simply enter the Git URL of your repo and it will be connected to your domain, meaning that its _master_ branch will be
+pulled and built (using **CODEDOC**) and the result will be distributed to `<your>.coding.blog`. You can trigger a publish
+either manually (there is a button) or using the provided webhook.
 
-For now, you can simply join our list of prospective creators and tell us your preferred `name.coding.blog`.
+If you do not have an account, you can simply join our list of prospective creators and tell us your preferred `name.coding.blog`.
 We will keep you updated on the process of connecting your blog as we progress with development of `coding.blog`.
 
 <br>
