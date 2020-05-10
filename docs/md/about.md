@@ -41,4 +41,4 @@ Landsbergerstr. 241a, 80687 Munich, Germany\
 [contact@connect-platform.com](mailto:contact@connect-platform.com)
 
 
-> :ToCPrevNext
+> :ToCPrevNext next=false

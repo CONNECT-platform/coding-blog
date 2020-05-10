@@ -19,12 +19,21 @@ export const theme = /*#__PURE__*/createTheme({
     },
     light: {
       background: '#f5f5f5',
-      text: '#9e9e9e',
+      text: '#757575',
     }
   },
   toc: {
     dark: {
       background: '#162A5D'
+    }
+  },
+  code: {
+    light: {
+      shadow: '',
+    },
+    dark: {
+      shadow: '',
+      background: '#1b1b2f',
     }
   }
 });

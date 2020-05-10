@@ -2,7 +2,7 @@ import { themedStyle } from '@connectv/jss-theme';
 import { CodedocTheme } from '@codedoc/core/transport';
 
 
-export const JoinBetaOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => ({
+export const ActionOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme => ({
   overlay: {
     zIndex: 1000,
     position: 'fixed',
@@ -30,16 +30,6 @@ export const JoinBetaOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme
       padding: 32,
     },
 
-    '& .top': {
-      display: 'flex',
-      alignItems: 'top',
-
-      '& .title': {
-        flexGrow: 1,
-        fontSize: 32,
-      }
-    },
-
     color: '#e0e0e0',
 
     '& input': {
@@ -51,7 +41,7 @@ export const JoinBetaOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme
       outline: 'none',
       fontSize: 24,
       display: 'block',
-      width: '100%',
+      width: 'calc(100% - 16px)',
       flexGrow: 1,
       color: 'white',
 
@@ -71,6 +61,7 @@ export const JoinBetaOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme
       outline: 'none',
       border: '2px solid white',
       transition: 'color .15s, background .15s, border-color .15s',
+      marginBottom: 8,
       '&>span': {
         marginRight: 16,
       },
@@ -87,6 +78,27 @@ export const JoinBetaOverlayStyle = /*#__PURE__*/themedStyle<CodedocTheme>(theme
         cursor: 'initial',
       },
     },
+  },
+
+  top: {
+    display: 'flex',
+    alignItems: 'top',
+  },
+
+  title: {
+    flexGrow: 1,
+    fontSize: 32,
+  },
+
+  body: {
+    position: 'relative'
+  },
+
+  actions: {
+    textAlign: 'right',
+    '& button': {
+      marginLeft: 8,
+    }
   },
 
   close: {
