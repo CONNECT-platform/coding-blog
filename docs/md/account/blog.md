@@ -23,13 +23,15 @@
 > > > > [info](:Icon (align=top)) **STEP 1**
 > > > >
 > > > > Setup a blog repo using [**CODEDOC**](https://codedoc.cc).\
-> > > > It is highly recommended to use [this boilerplate project](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork).
-> > > 
+> > > > It is highly recommended to use [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork).
+> > > > > :Buttons
+> > > > > > :Button url=https://github.com/CONNECT-platform/coding-blog-boilerplate/fork, label=Fork the Starter Project
+> > >
 > > > > [info](:Icon (align=top)) **STEP 2**
 > > > >
 > > > > Host the Git repo of your blog somewhere that is publicly accessible, e.g. on [GitHub](https://github.com).
 > > > > If you have forked the boilerplate repo, your repo is already on GitHub.
-> > > 
+> > >
 > > > > [info](:Icon (align=top)) **STEP 3**
 > > > >
 > > > > Click on the **Bind Repo** button below and enter the URL of that Git repo \
