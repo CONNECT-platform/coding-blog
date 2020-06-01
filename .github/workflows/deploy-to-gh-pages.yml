@@ -22,7 +22,7 @@ jobs:
           cp banner.svg dist/
           cp banner-dark.svg dist/
           cp favicon.ico dist/
-          cp -r img/ dist/img/
+          cp -rf img/ dist/img/
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
