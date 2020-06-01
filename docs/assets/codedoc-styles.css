@@ -300,7 +300,7 @@ a.button-0-0-2.icon {
 @media screen and (max-width: 1200px) {
   .toc-0-0-7 {
     width: 100vw;
-    transform: translateX(-100vw);
+    transform: translateX(-110vw);
   }
 }
   .toc-0-0-7.animated {

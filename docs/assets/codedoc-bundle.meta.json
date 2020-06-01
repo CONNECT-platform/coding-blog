@@ -64,11 +64,6 @@
       "name": "postNavSearch",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/search/post-nav/index.js",
       "hash": "eNyzlU4G/vOP7fQCqrTwmA=="
-    },
-    {
-      "name": "zoomOnFormula",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js",
-      "hash": "EMU2BbWQCYZBEgSGFIIP3w=="
     }
   ],
   "components": [
