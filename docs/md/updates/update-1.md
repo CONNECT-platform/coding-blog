@@ -21,8 +21,7 @@ Here is a rundown of what has happened since our announcement and our future pla
 that helps developers create more elegant blogs about coding both on `coding.blog` and on other hosting
 services (or for self-hosted blogs).
 
-- We've started the **alpha stage**: we are slowly activating blogs of writers who signed up on our prospective
-creators list (you can still sign-up: https://coding.blog/creators). The first batch of creators already have their blogging space set up and have begun testing and publishing their blogs.
+- We've started the **alpha stage**: we are slowly activating blogs of writers who signed up on our prospective [Creator's List](https://coding.blog/creators). The first batch of creators already have their blogging space set up and have begun testing and publishing their blogs.
 
 - As the created content begins to grow, we will start featuring the top blogs (based on relevance and quality of content, topic and writing) on `coding.blog` itself. We will also support the creators by promoting their content organically as well.  
 
