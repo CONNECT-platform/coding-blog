@@ -9,32 +9,28 @@
 
 # Update #1 -  June 2020
 
-About a month ago we first announced `coding.blog`. It was received really
-well by the community, much more enthusiastically than what we anticipated.
-Since then, we've been at work to more sharply outline our roadmap and work
-towards it.
+About a month ago, we first announced `coding.blog`. It was received really
+well by the community, much more enthusiastically than what we had anticipated.
+So since then, we've been at work to more sharply outline our roadmap and work
+towards making coding.blog a reality. 
 
-Here is a rundown of what has happened since and what are our future plans:
+Here is a rundown of what has happened since our announcement and our future plans:
 
 - The [first blog](https://eugene.coding.blog) was released alongside a
 [plugin for **CODEDOC**](https://connect-platform.github.io/coding-blog-plugin) 
-that helps with creating more elegant blogs, both on `coding.blog` and on other hosting
+that helps developers create more elegant blogs about coding both on `coding.blog` and on other hosting
 services (or for self-hosted blogs).
 
-- We've started the **alpha stage**: we are slowly activating blogs of prospective
-creators, first batch already activated and began testing and publishing their blogs.
+- We've started the **alpha stage**: we are slowly activating blogs of writers who signed up on our prospective
+creators list (you can still sign-up: https://coding.blog/creators). The first batch of creators already have their blogging space set up and have begun testing and publishing their blogs.
 
-- As the created content begins to grow, we will start featuring the top posts
-on `coding.blog` itself, and promoting these contents.
+- As the created content begins to grow, we will start featuring the top blogs (based on relevance and quality of content, topic and writing) on `coding.blog` itself. We will also support the creators by promoting their content organically as well.  
 
-- In lock-step with that process, we will further develop and finalize the curation 
-pipeleine and enter the **beta stage**, where people will receive personalized curated lists.
+- Along with that process, we will further develop and finalize the curation pipeleine and enter the **beta stage**, where people will receive personalized curated lists.
 
-- In lock-step with that process, we will begin rolling out the tipping system as well.
+- In lock-step with the above processes, we will begin rolling out the tipping system as well.
 
-- We have conducted a more in-depth financial analysis of this project, and have
-begun looking for proper sources of investment for its initial phases.
-
+- We have conducted a more in-depth financial analysis of this project, and are exploring different financing options for the initial stage of this project. 
 ---
 
 ## First Blog and Blogging Tools
@@ -50,7 +46,7 @@ and released a _plugin system_ for **CODEDOC**, and created
 [a plugin](https://connect-platform.github.io/coding-blog-plugin) that provides these components
 and tools.
 
-This plugin is not limited to `coding.blog` blogs. You can utilize it on blog using **CODEDOC**,
+This plugin is not limited to `coding.blog` blogs. You can utilize it on blogs using **CODEDOC**,
 hosted anywhere (including GitHub Pages). To make the process even more convenient, we created
 [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate), which
 has **CODEDOC** setup and the plugin pre-installed on it, and is enriched with proper config and workflows
@@ -66,10 +62,8 @@ bound to their account, receiving an email with a link to access and manage thei
 blog.
 
 We opted for a slow roll-out instead of an all-out access to ensure that we will have the capacity
-to focus on feedback of every creator. Our publishing process might need further polish, our CDN might
-require further optimization, or there simply might be great ideas from authors and creators on how to
-make `coding.blog` a better blogging tool, and we don't want to miss any of that because we have overloaded
-ourselves.
+to focus on feedback of every creator. Our publishing process might need further polish, our Content Delivery Network (CDN) might
+require further optimization, or there simply might be great ideas from authors and creators on making `coding.blog` a better blogging tool, and we don't want to miss any of that!
 
 The first batch of creator accounts were activated today. We simply prioritize people who are
 more likely to start creating content and test our systems more actively, also emphasizing the
@@ -111,8 +105,8 @@ before reaching the break-even point. The exact amount is highly dependendt on t
 growth rate of `coding.blog`, and we do not intend to slow its growth down due to financial reasons,
 specifically considering the amount of enthusiasm and support from the community we have received.
 
-As a result, we have begun looking for investment/funding for this project. This is only
-to be able to manage the initial growth phase, as we intend to avoid allowing this project
+As a result, we have begun exploring the idea of external investment/funding for this project. This is only
+to be able to manage the initial growth phase (if the traction remains sustainable), as we intend to avoid allowing this project
 becoming another heavily-investment dependent and unnaturally hyped tech project that remains
 at a loss years into its existence.
 
