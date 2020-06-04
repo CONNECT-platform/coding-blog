@@ -16,8 +16,8 @@ import { CollapseControl } from '/home/runner/work/coding-blog/coding-blog/.code
 import { ToCToggle } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/toggle/index.js';
 import { DarkModeSwitch } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/darkmode/index.js';
 import { ConfigTransport } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/transport/config.js';
-import { ToCPrevNext } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 import { JoinCreatorButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-creator/button.tsx';
+import { ToCPrevNext } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 import { JoinButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx';
 import { ACSBControl } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/status-bound/control.tsx';
 import { AccountProp } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/account-prop/inline.tsx';
@@ -35,8 +35,8 @@ const components = {
   'krgrG9oFN9VQUm9kMirw5Q==': ToCToggle,
   'rt07Ne+r5k791oQZALhn6g==': DarkModeSwitch,
   '5C7mlfiypfDBeBwm8QT42g==': ConfigTransport,
-  'dPH0+SmZ7R38b/oBW5P5Rw==': ToCPrevNext,
   'lMESGbHzhfX6M8dUvLqFOQ==': JoinCreatorButton,
+  'dPH0+SmZ7R38b/oBW5P5Rw==': ToCPrevNext,
   'vnuJLwoGViEp/Odb1ab7Ow==': JoinButton,
   'rAwarKynpy/O96Cwe2ABsw==': ACSBControl,
   '1Jf+OzRlMLYJPPZCWaMIDw==': AccountProp,

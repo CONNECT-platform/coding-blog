@@ -88,14 +88,14 @@
       "hash": "5C7mlfiypfDBeBwm8QT42g=="
     },
     {
-      "name": "ToCPrevNext",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
-      "hash": "dPH0+SmZ7R38b/oBW5P5Rw=="
-    },
-    {
       "name": "JoinCreatorButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-creator/button.tsx",
       "hash": "lMESGbHzhfX6M8dUvLqFOQ=="
+    },
+    {
+      "name": "ToCPrevNext",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
+      "hash": "dPH0+SmZ7R38b/oBW5P5Rw=="
     },
     {
       "name": "JoinButton",
