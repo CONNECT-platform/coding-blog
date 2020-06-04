@@ -11,6 +11,7 @@ export const theme = /*#__PURE__*/createTheme({
     primary: '#9399ff',
     background: '#142850',
     code: '#9399ff',
+    border: '#273467',
   },
   quote: {
     dark: {
@@ -24,7 +25,8 @@ export const theme = /*#__PURE__*/createTheme({
   },
   toc: {
     dark: {
-      background: '#162A5D'
+      background: '#162A5D',
+      border: '#273467',
     }
   },
   code: {

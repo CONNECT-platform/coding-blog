@@ -9,7 +9,11 @@
 > > :AccountPropBound prop=domain
 > > 
 > > Here you can view and update details of your blog on `coding.blog`, and 
-> > publish your blog.
+> > publish your blog. If you are not sure how `coding.blogs` work, make sure
+> > to checkout [this entry](/knowledge/setting-up-a-blog) first.
+> >
+> > > :Buttons
+> > > > :Button label=Learn More about Blogs, url=/knowledge/setting-up-a-blog
 > >
 > > **DOMAIN**:
 > > > :AccountProp prop=domain
@@ -51,8 +55,8 @@
 > > >
 > > > **PUBLISH WEBHOOK**:
 > > >
-> > > You can simply use this webhook to publish your blog. Curl it, set it on GitHub as a post-master-push 
-> > > web-hook, set it somewhere alongside your
+> > > You can simply use this webhook to publish your blog. Curl it, [set it on GitHub as a post-master-push 
+> > > web-hook](/knowledge/publish-webhook), set it somewhere alongside your
 > > > CI/CD, or simply click on the **Publish** button below.
 > > > > :AccountProp prop=publishUrl
 > > >
@@ -70,22 +74,6 @@
 > > > via [domain](:AccountProp (prop=domain)).
 > > > You will be notified via email of the status of that process.
 > > >
-> > > > [bug_report](:Icon) **TROUBLESHOOTING**
-> > > >
-> > > > After requesting a publish, your blog should be published in under 10 minutes, notifying you
-> > > > via email. Generally if that doesn't happen (you do not receive the email), that is indivative
-> > > > of some error with process of publishing your blog.
-> > > >
-> > > > We are working to make our build process much more verbose, so that in case of such errors it
-> > > > can inform you with actionable details and instructions. In the meanwhile however, you can
-> > > > troubleshoot such issues using following guidelines:
-> > > >
-> > > > - Check that the repository bound exists and **IS PUBLIC**.
-> > > >
-> > > > - Check that it is a **CODEDOC** project (you can build and run it locally using [**CODEDOC**](https://codedoc.cc))
-> > > >
-> > > > If none of that helps, simply drop me an email on `eugene@coding.blog` (or `eugene@connect-platform.com`).
-> > >
 > > > > [timer](:Icon) **BUILD TIME**
 > > > >
 > > > > Building each version of your blog takes some time. Besides, our current build capacity is rather limited,
@@ -97,6 +85,15 @@
 > > > > without you realizing it, which might result in unfinished content being published. If you think
 > > > > your publish webhook have been compormised, simply use the refresh button ([refresh](:Icon (align=middle))) to
 > > > > create a new webhook, invalidating the old one.
+> > >
+> > > > [bug_report](:Icon) **TROUBLESHOOTING**
+> > > >
+> > > > After requesting a publish, your blog should be published in under 10 minutes, notifying you
+> > > > via email. Each build will be tried a few times, and flagged as failed if all of the attempts
+> > > > finish with an error. In case a build fails, you will also be notified via email.
+> > > >
+> > > > For more information on potential errors and how to resolve them, 
+> > > > [read this knowledge base entry](/knowledge/setting-up-a-blog#troubleshooting)
 >
 > > :AccountPropBound prop=domain, unset=true
 > >
@@ -139,4 +136,4 @@
 > >
 > > ![banner](/img/account-banner-dark.svg)
 
-> :ToCPrevNext
+> :ToCPrevNext next=false

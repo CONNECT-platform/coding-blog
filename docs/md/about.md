@@ -40,5 +40,3 @@ to security reasons), which is also how we plan to move forward with `coding.blo
 Landsbergerstr. 241a, 80687 Munich, Germany\
 [contact@connect-platform.com](mailto:contact@connect-platform.com)
 
-
-> :ToCPrevNext next=false

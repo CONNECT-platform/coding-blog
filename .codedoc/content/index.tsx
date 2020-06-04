@@ -15,7 +15,13 @@ export function content(_content: HTMLElement, toc: HTMLElement, renderer: Rende
           fonts={<Fonts {...config.page.fonts}/>}
 
           scripts={config.page.scripts}
-          stylesheets={config.page.stylesheets}
+          stylesheets={[...config.page.stylesheets || [], 
+            <style>{`
+              #-codedoc-toc hr {
+                margin: 16px 0;
+                margin-right: 32px;
+              }
+            `}</style>]}
 
           header={<Header {...config}/>}
           footer={<Footer {...config}/>}
