@@ -23,9 +23,9 @@
 > > > > [info](:Icon (align=top)) **STEP 1**
 > > > >
 > > > > Setup a blog repo using [**CODEDOC**](https://codedoc.cc).\
-> > > > It is highly recommended to use [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate/fork).
+> > > > It is highly recommended to use [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate).
 > > > > > :Buttons
-> > > > > > :Button url=https://github.com/CONNECT-platform/coding-blog-boilerplate/fork, label=Fork the Starter Project
+> > > > > > :Button url=https://github.com/CONNECT-platform/coding-blog-boilerplate/generate, label=Use the Starter Project
 > > >
 > > > > [info](:Icon (align=top)) **STEP 2**
 > > > >
@@ -35,7 +35,8 @@
 > > > > [info](:Icon (align=top)) **STEP 3**
 > > > >
 > > > > Click on the **Bind Repo** button below and enter the URL of that Git repo \
-> > > > i.e. `https://somewhere/my-blog.git`.
+> > > > i.e. `https://somewhere/my-blog.git`. The bound repo **MUST** be public (so our build pipeline can fetch)
+> > > > and it **MUST** be a [CODEDOC](https://codedoc.cc) project (so our build pipeline knows how to build it).
 > > >
 > > > > :Buttons
 > > > > > :BindRepoButton
@@ -68,6 +69,22 @@
 > > > [**CODEDOC**](https://codedoc.cc), and the generated files distributed to our CDNs, accessible 
 > > > via [domain](:AccountProp (prop=domain)).
 > > > You will be notified via email of the status of that process.
+> > >
+> > > > [bug_report](:Icon) **TROUBLESHOOTING**
+> > > >
+> > > > After requesting a publish, your blog should be published in under 10 minutes, notifying you
+> > > > via email. Generally if that doesn't happen (you do not receive the email), that is indivative
+> > > > of some error with process of publishing your blog.
+> > > >
+> > > > We are working to make our build process much more verbose, so that in case of such errors it
+> > > > can inform you with actionable details and instructions. In the meanwhile however, you can
+> > > > troubleshoot such issues using following guidelines:
+> > > >
+> > > > - Check that the repository bound exists and **IS PUBLIC**.
+> > > >
+> > > > - Check that it is a **CODEDOC** project (you can build and run it locally using [**CODEDOC**](https://codedoc.cc))
+> > > >
+> > > > If none of that helps, simply drop me an email on `eugene@coding.blog` (or `eugene@connect-platform.com`).
 > > >
 > > > > [timer](:Icon) **BUILD TIME**
 > > > >
