@@ -100,7 +100,7 @@ export function JoinCreatorOverlay(this: ComponentThis, _: any, renderer: Render
           <Overlay>
             <span class="icon-font" style="font-size: 128px; color: #fd5e53">error</span><br/>
             Oops<br/>
-            <p style="font-size: 24px">
+            <p style="font-size: 24px" onclick={event => event.stopPropagation()}>
               Something went wrong. Please try again in a minute or contact us at 
               contact@connect-platform.com.
             </p>

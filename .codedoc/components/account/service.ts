@@ -74,8 +74,6 @@ export class AccountService {
         ajax.getJSON<AccountResponse>(_API_URL + `/account?token=${this.token}`).subscribe(
           response => {
             if (response.user) {
-              console.log(response.user);
-
               const user: AccountData  = {
                 email: response.user.email,
                 name: response.user.name,
