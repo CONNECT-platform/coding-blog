@@ -163,8 +163,8 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 
 > :MetaOverride target=twitter:image
 >
-> https://pbs.twimg.com/profile_banners/1269544183318093828/1591518381/1500x500
+> https://coding.blog/img/update-social-banner.png
 
 > :MetaOverride property=og:image
 >
-> https://pbs.twimg.com/profile_banners/1269544183318093828/1591518381/1500x500
+> https://coding.blog/img/update-social-banner.png
