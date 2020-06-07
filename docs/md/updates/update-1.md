@@ -129,7 +129,15 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 
 > :ToCPrevNext next=false
 
+> :MetaOverride target=og:type
+>
+> article
+
 > :MetaOverride target=twitter:title
+>
+> Coding.blog update #1 - June 2020
+
+> :MetaOverride property=og:title
 >
 > Coding.blog update #1 - June 2020
 
@@ -141,6 +149,14 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 >
 > June 2020 update of coding.blog's status.
 
+> :MetaOverride property=og:description
+>
+> June 2020 update of coding.blog's status.
+
 > :MetaOverride target=twitter:image
+>
+> https://coding.blog/img/update-banner-dark.svg
+
+> :MetaOverride property=og:image
 >
 > https://coding.blog/img/update-banner-dark.svg
