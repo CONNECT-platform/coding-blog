@@ -25,10 +25,10 @@
 
 <br><br>
 
-## How Will it Work
+## How it Works
 
-Each blogspace on [`coding.blog`](https://coding.blog) will be a git repo owned by its author, including some markdown files
-and some configuration indicating how those markdown files should be presented. Each repo will be bound to some domain aka `jacks.coding.blog`, and for each publish, [`coding.blog`](https://coding.blog) will pull the repo, build the content into
+Each blogspace on [`coding.blog`](https://coding.blog) is a git repo owned by its author, including some markdown files
+and some configuration indicating how those markdown files should be presented. Each repo is bound to some domain aka `jacks.coding.blog`, and for each publish, [`coding.blog`](https://coding.blog) will pull the repo, build the content into
 a JAMStack app, distribute it on its CDNs, and queue the new content for curation.
 
 Readers can get personalized curation lists for a monthly fee if they chose to, the revenue of which will be used to pay the costs of curation and payback the authors whose work people are paying to stay informed about. The JAMStack app will also be equipped with a tipping feature that allows the community to directly support an author for an article.
@@ -40,4 +40,6 @@ Readers can get personalized curation lists for a monthly fee if they chose to, 
 
 ## Current State
 
-[`coding.blog`](https://coding.blog) is in early development stages. If you are interested, you can join the waiting list for its beta [here](https://coding.blog). If you are a blog-writer who wants to put their blog on [`coding.blog`](https://coding.blog), you can join the Prospective Creator's list [here](https://coding.blog/creators).
+[`coding.blog`](https://coding.blog) began its alpha-testing phase [recently](https://coding.blog/updates/update-1). Testing is being conducted with help from select Prospective Creators. Creator accounts (and blogs) are being rolled out in batches so that we maintain full capacity to tend to feedback from each creator properly. If you are eager to help us with testing, join the Prospective Creator's List [here](https://coding.blog/creators) and drop me an email on eugene@connect-platform.com.
+
+If you are generally interested, you can join the waiting list for its beta [here](https://coding.blog). If you are a blog-writer who wants to put their blog on [`coding.blog`](https://coding.blog), you can join the Prospective Creator's list [here](https://coding.blog/creators), though as mentioned above it will be some time before your blog is activated.
