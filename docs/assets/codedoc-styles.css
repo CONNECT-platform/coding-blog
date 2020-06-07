@@ -198,6 +198,7 @@ a.button-0-0-2.icon {
   .imgLink-0-0-6 {
     width: 24px;
     height: 24px;
+    margin: 0 12px;
     opacity: 0.25;
     position: relative;
     transition: opacity .1s !important;
