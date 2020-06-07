@@ -27,7 +27,8 @@
 > > > > [info](:Icon (align=top)) **STEP 1**
 > > > >
 > > > > Setup a blog repo using [**CODEDOC**](https://codedoc.cc).\
-> > > > It is highly recommended to use [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate).
+> > > > It is highly recommended to use [this starter project](https://github.com/CONNECT-platform/coding-blog-boilerplate/generate),
+> > > > and it is generally recommended to include your domain name or your username in the repo name.
 > > > > > :Buttons
 > > > > > > :Button url=https://github.com/CONNECT-platform/coding-blog-boilerplate/generate, label=Use the Starter Project
 > > >
