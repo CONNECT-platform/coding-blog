@@ -129,9 +129,13 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 
 > :ToCPrevNext next=false
 
-> :MetaOverride target=og:type
+> :MetaOverride property=og:type
 >
 > article
+
+> :MetaOverride target=twitter:card
+>
+> summary_large_image
 
 > :MetaOverride target=twitter:title
 >
@@ -141,7 +145,11 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 >
 > Coding.blog update #1 - June 2020
 
-> :MetaOverride target=twitter:creator:id
+> :MetaOverride target=twitter:creator
+>
+> @lorean_victor
+
+> :MetaOverride target=twitter:site
 >
 > @coding_blog
 
@@ -155,8 +163,8 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 
 > :MetaOverride target=twitter:image
 >
-> https://coding.blog/img/update-banner-dark.svg
+> https://pbs.twimg.com/profile_banners/1269544183318093828/1591518381/1500x500
 
 > :MetaOverride property=og:image
 >
-> https://coding.blog/img/update-banner-dark.svg
+> https://pbs.twimg.com/profile_banners/1269544183318093828/1591518381/1500x500
