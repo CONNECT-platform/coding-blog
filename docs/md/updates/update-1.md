@@ -128,3 +128,19 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 
 
 > :ToCPrevNext next=false
+
+> :MetaOverride target=twitter:title
+>
+> Coding.blog update #1 - June 2020
+
+> :MetaOverride target=twitter:creator:id
+>
+> @coding_blog
+
+> :MetaOverride target=twitter:description
+>
+> June 2020 update of coding.blog's status.
+
+> :MetaOverride target=twitter:image
+>
+> https://coding.blog/img/update-banner-dark.svg
