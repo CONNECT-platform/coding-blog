@@ -8,6 +8,7 @@ const style = themedStyle<CodedocTheme>(() => ({
     position: 'relative',
     width: 24,
     height: 24,
+    margin: '0 12px',
     opacity: .25,
     transition: 'opacity .1s !important',
     '&:hover': { opacity: 1, },
@@ -56,12 +57,10 @@ export function Footer(this: ThemedComponentThis, config: CodedocConfig, rendere
       <img src="/img/social/twitter-light.svg" class="light"/>
       <img src="/img/social/twitter-dark.svg" class="dark"/>
     </a>
-    <hr/>
     <a href="https://github.com/CONNECT-platform/coding-blog" target="_blank" class={classes.imgLink}>
       <img src="/img/social/github-light.svg" class="light"/>
       <img src="/img/social/github-dark.svg" class="dark"/>
     </a>
-    <hr/>
     <a href="https://www.linkedin.com/company/coding-blog/" target="_blank" class={classes.imgLink}>
     <img src="/img/social/linkedin-light.svg" class="light"/>
       <img src="/img/social/linkedin-dark.svg" class="dark"/>
