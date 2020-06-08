@@ -8,7 +8,7 @@ import { ActionOverlay } from '../../action-overlay';
 import { AccountService } from '../service';
 
 
-const repoRegex = /^(https)(:(\/\/)?)([\w\.@\:/\-~]+)(\.git)(\/)?$/;
+const repoRegex = /^(https)(:(\/\/)?)([\w\.@\:/\-~]+)(\/)?$/;
 
 export function BindRepoOverlay(this: ComponentThis, _: any, renderer: RendererLike<any, any>) {
   const close = ref<() => void>();
