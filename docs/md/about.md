@@ -11,19 +11,19 @@ to security reasons), which is also how we plan to move forward with `coding.blo
 
 ## Founders
 
-> :PersonCard name=Beenish Waris, avatar=/img/team/beenish.jpg, subtitle=MS.c. Consumer Affairs at TÜM
+> :PersonCard name=Beenish Waris, avatar=/img/team/beenish.jpg, subtitle=MS.c. Consumer Affairs at TUM
 >
 > The networker, the presenter, and the boss. Has worked in business development, marketing and product development 
 > in the SaaS industry. Part of her marketing experience consisted of content-marketing, which took out the fun
 > that she thrives on when it comes to writing. Also, a bit of a fitness freak and a hobby-ist fashion designer.
 
-> :PersonCard name=Mustapha Ben Chaaben, avatar=/img/team/mustapha.jpg, subtitle=MS.c. Management at TÜM
+> :PersonCard name=Mustapha Ben Chaaben, avatar=/img/team/mustapha.jpg, subtitle=MS.c. Management at TUM
 >
 > The responsible guy. Full-stack programmer, with tendencies towards devops. Has founded startups
 > before in Tunisia (Placeholder). Detail-oriented fella, which sometime causes me a lot of pain but 
 > results in really polished software.
 
-> :PersonCard name=Eugene Ghanizadeh, avatar=/img/team/eugene.jpg, subtitle=MS.c. Informatics at TÜM
+> :PersonCard name=Eugene Ghanizadeh, avatar=/img/team/eugene.jpg, subtitle=MS.c. Informatics at TUM
 >
 > Has worked 8 years in software industry, most notably in [CafeBazaar](https://cafebazaar.ir/?l=en),
 > as a product manager, team leader, UX designer, backend/frontend developer, etc. Spends most of his
