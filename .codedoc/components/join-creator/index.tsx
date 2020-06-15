@@ -5,7 +5,7 @@ import { Overlay, Loading } from '@codedoc/core/components';
 
 import { ActionOverlay } from '../action-overlay';
 import { isAvailable } from './is-available';
-import { AccountService } from '../account/service';
+import { AccountService } from '../account/account.service';
 
 
 const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

@@ -7,13 +7,13 @@ import { map } from 'rxjs/operators';
 import { ActionOverlay } from '../../action-overlay';
 import { AccountPropCode } from '../account-prop/code';
 import { AccountProp } from '../account-prop/inline';
-import { AccountService } from '../service';
+import { PublishService } from '../publish.service';
 
 
 export function PublishOverlay(_: any, renderer: RendererLike<any, any>) {
   const close = ref<() => void>();
   const loading = new BehaviorSubject(false);
-  const service = AccountService.instance();
+  const service = PublishService.instance();
 
   return <ActionOverlay title='Confirm Publish' close={close} 
   actions={

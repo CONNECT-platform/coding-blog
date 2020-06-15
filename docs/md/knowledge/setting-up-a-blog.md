@@ -67,19 +67,16 @@ After you have setup your repo, you can simply bind it to your domain via [your 
 For binding your repo to your domain, you **MUST** enter the _GIT URL_ for your repo, i.e. 
 the URL using which our build servers can clone your repo and build it.
 
-Valid Repo URLs:
+Valid repo URLs:
 
 ```bash | --no-wmbar
 https://github.com/johndoe/my-blog.git
 https://my-own.server/my-blog.git
 ```
 
-Invalid Repo URLs:
-
-```bash | --no-wmbar
-https://github.com/johndoe/my-blog
-https://my-own.server/my-blog
-```
+Typically repo URLs end with `.git`. Your repo might be available on a URL that does not end with `.git`, however
+_that is pretty rare_. In any case, be sure that you have entered the proper URL (we will try to clone it
+in order to build and publish your repo, so we should be able to clone it).
 
 ---
 
@@ -133,5 +130,10 @@ causes, and simple solutions for each such error:
 - _Project cannot be built_
   - **TYPICAL CAUSE**: typo in usage of custom component or in a markdown file.
   - **FIX**: make sure you can run and build your repo locally, via `codedoc serve` and `codedoc build`.
+
+<br>
+
+- _Unknown error_
+  - this shouldn't happen, so contact us if it is happening to you via contact@coding.blog.
 
 > :ToCPrevNext prev=false

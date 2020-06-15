@@ -3,7 +3,7 @@ import { transport } from '@connectv/sdh/transport';
 import { tap } from 'rxjs/operators';
 
 import { AccountPropBoundOptions } from './types';
-import { AccountService as service } from '../service';
+import { AccountService as service } from '../account.service';
 
 
 export function ACPBControl(

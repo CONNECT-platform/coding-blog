@@ -20,6 +20,7 @@ import { AccountProp$, AccountPropCode$ } from './components/account/account-pro
 import { EditNameButton$ } from './components/account/edit-name';
 import { BindRepoButton$ } from './components/account/bind-repo';
 import { PublishButton$, RefreshPublishWebhookButton$ } from './components/account/publish-blog';
+import { PublishStatus$ } from './components/account/publish-status';
 
 
 export const config = /*#__PURE__*/configuration({
@@ -71,6 +72,7 @@ export const config = /*#__PURE__*/configuration({
       AccountStatusBound, AccountPropBound, AccountProp: AccountPropCode$,
       EditNameButton: EditNameButton$, BindRepoButton: BindRepoButton$,
       PublishButton: PublishButton$, RefreshPublishWebhookButton: RefreshPublishWebhookButton$,
+      PublishStatus: PublishStatus$,
     }
   },
   misc: {

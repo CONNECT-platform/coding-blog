@@ -61,6 +61,8 @@
 > > > CI/CD, or simply click on the **Publish** button below.
 > > > > :AccountProp prop=publishUrl
 > > >
+> > > > :PublishStatus
+> > >
 > > > > :Buttons
 > > > > > :RefreshPublishWebhookButton
 > > > >

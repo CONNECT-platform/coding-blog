@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@codedoc/core": "^0.1.61",
+    "@codedoc/core": "^0.2.3",
     "@types/airtable": "^0.5.7",
     "airtable": "^0.8.1",
     "rxmetics": "^0.2.1"

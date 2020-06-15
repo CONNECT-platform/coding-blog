@@ -1,5 +1,6 @@
 import { ajax } from 'rxjs/ajax';
 import { BehaviorSubject } from 'rxjs';
+
 import { AccountStatus, AccountData } from './types';
 
 
@@ -158,14 +159,5 @@ export class AccountService {
         err => reject(err)
       );
     });
-  }
-
-  async publishBlog() {
-    if (this.data.value?.publishUrl) {
-      const url = this.data.value?.publishUrl;
-      await new Promise((resolve, reject) => {
-        ajax.post(url).subscribe(() => resolve(), err => reject(err));
-      });
-    }
   }
 }

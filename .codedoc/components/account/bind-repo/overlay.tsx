@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { ActionOverlay } from '../../action-overlay';
-import { AccountService } from '../service';
+import { AccountService } from '../account.service';
 
 
 const repoRegex = /^(https)(:(\/\/)?)([\w\.@\:/\-~]+)(\/)?$/;

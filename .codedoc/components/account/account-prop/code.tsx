@@ -5,7 +5,7 @@ import { CodedocTheme } from '@codedoc/core/transport';
 import { transport } from '@connectv/sdh/transport';
 import { map } from 'rxjs/operators';
 
-import { AccountService as service } from '../service';
+import { AccountService as service } from '../account.service';
 import { AccountPropOptions } from './types';
 
 

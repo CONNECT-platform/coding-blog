@@ -6,6 +6,7 @@ export const theme = /*#__PURE__*/createTheme({
     primary: '#363062',
     background: '#f5f5f5',
     code: '#363062',
+    border: '#cedeff',
   },
   dark: {
     primary: '#9399ff',
