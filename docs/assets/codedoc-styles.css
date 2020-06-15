@@ -55,6 +55,11 @@ body.dark .darklight-0-0-1>.dark {
     font-size: 24px;
     min-width: 0;
   }
+  .button-0-0-2[disabled] {
+    color: #f5f5f5;
+    border: rgba(66, 66, 66, 0.35);
+    background: rgba(66, 66, 66, 0.35);
+  }
   body.dark .button-0-0-2 {
     color: black;
     background: #9399ff;
@@ -66,22 +71,32 @@ body.dark .darklight-0-0-1>.dark {
     background: #9399ff;
     border-color: #9399ff;
   }
+  body:not(.dark-mode-animate) .button-0-0-2[disabled] {
+    color: #142850;
+    border: rgba(238, 238, 238, 0.35);
+    background: rgba(238, 238, 238, 0.35);
+  }
 }
-  .button-0-0-2:hover {
+  .button-0-0-2:hover:not([disabled]) {
     color: #363062;
     background: transparent;
     text-decoration: none;
   }
-  body.dark .button-0-0-2:hover {
+  body.dark .button-0-0-2:hover:not([disabled]) {
     color: #9399ff;
     background: transparent;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .button-0-0-2:hover {
+  body:not(.dark-mode-animate) .button-0-0-2:hover:not([disabled]) {
     color: #9399ff;
     background: transparent;
   }
 }
+  body.dark .button-0-0-2[disabled] {
+    color: #142850;
+    border: rgba(238, 238, 238, 0.35);
+    background: rgba(238, 238, 238, 0.35);
+  }
 a.button-0-0-2 {
   height: 28px;
 }
@@ -101,7 +116,7 @@ a.button-0-0-2.icon {
     max-height: 0;
     transition: opacity .3s;
     visibility: hidden;
-    border-left: 2px solid rgba(224, 224, 224, 0.5);
+    border-left: 2px solid rgba(206, 222, 255, 0.5);
     padding-left: 16px;
   }
   .collapse-0-0-3.open>.content {
@@ -289,7 +304,7 @@ a.button-0-0-2.icon {
     border: none;
     height: 16px;
     margin: 16px;
-    background: #e0e0e0;
+    background: #cedeff;
   }
   .footer-0-0-7 .main>.inside a {
     text-decoration: none;
@@ -419,11 +434,14 @@ a.button-0-0-2.icon {
     right: 0;
     width: calc(50vw - 496px);
     bottom: 96px;
+    overflow: auto;
     position: fixed;
     font-size: 12px;
-    border-left: 1px dashed #e0e0e0;
+    max-height: 45vh;
+    border-left: 1px dashed #cedeff;
     margin-left: 64px;
     padding-left: 48px;
+    scroll-behavior: initial;
   }
 @media screen and (max-width: 1200px) {
   .contentnav-0-0-11 {
@@ -524,7 +542,7 @@ hr {
   border: none;
   margin: 64px;
   background: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #cedeff;
 }
 body.dark-mode-animate hr {
   transition: border-color .3s;

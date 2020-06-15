@@ -27,6 +27,7 @@ import { LogoutButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc
 import { LoginButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/login/button.tsx';
 import { ACPBControl } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/prop-bound/control.tsx';
 import { BindRepoButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/bind-repo/button.tsx';
+import { PublishStatus } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-status/index.tsx';
 import { RefreshPublishWebhookButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/refresh-button.tsx';
 import { PublishButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/button.tsx';
 
@@ -46,6 +47,7 @@ const components = {
   '2UJH07mrL6zqL5jrlN00iA==': LoginButton,
   'iuBoj8gqUJWoao5Rhv6Z5A==': ACPBControl,
   'kWYPxjjS6eHniJ5+rq7lbQ==': BindRepoButton,
+  '8ArGoF0V90w0VfBFfihB3Q==': PublishStatus,
   'pT/+mkb6LyaiJVrBv/2nQg==': RefreshPublishWebhookButton,
   'zJTkEHU8i5aA8SWu2KQczA==': PublishButton
 };
