@@ -30,6 +30,7 @@ import { BindRepoButton } from '/home/runner/work/coding-blog/coding-blog/.coded
 import { PublishStatus } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-status/index.tsx';
 import { RefreshPublishWebhookButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/refresh-button.tsx';
 import { PublishButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/button.tsx';
+import { TabSelector } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 
 const components = {
   'r+Jv/VS/YauITdU0M0jN1Q==': CollapseControl,
@@ -49,7 +50,8 @@ const components = {
   'kWYPxjjS6eHniJ5+rq7lbQ==': BindRepoButton,
   '8ArGoF0V90w0VfBFfihB3Q==': PublishStatus,
   'pT/+mkb6LyaiJVrBv/2nQg==': RefreshPublishWebhookButton,
-  'zJTkEHU8i5aA8SWu2KQczA==': PublishButton
+  'zJTkEHU8i5aA8SWu2KQczA==': PublishButton,
+  '35QFbN70LTVyd/ipvfqjCQ==': TabSelector
 };
 
 const renderer = getRenderer();

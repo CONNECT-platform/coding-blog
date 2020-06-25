@@ -156,6 +156,11 @@
       "name": "PublishButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/button.tsx",
       "hash": "zJTkEHU8i5aA8SWu2KQczA=="
+    },
+    {
+      "name": "TabSelector",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "35QFbN70LTVyd/ipvfqjCQ=="
     }
   ],
   "renderer": {
