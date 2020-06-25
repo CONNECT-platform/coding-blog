@@ -19,4 +19,8 @@
 > [Setting up a Blog](/knowledge/setting-up-a-blog)
 > [Publish Webhook](/knowledge/publish-webhook)
 
+> :Collapse label=Blog
+>
+> [JAMStack](/blog/jamstack)
+
 [About](/about)
