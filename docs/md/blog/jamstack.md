@@ -524,3 +524,60 @@ as well, but right now that requires manual configuration of Webpack (or any bun
 > :PersonCard name=Eugene Ghanizadeh, avatar=/img/team/eugene.jpg, subtitle=Published on 24 June 2020
 
 <br><br>
+
+> :MetaOverride target=description
+>
+> Why we chose JAMStack for coding.blog, instead of doing SSR, making an Singe-Page Application,
+> setting up an isomorphic Javascript project, etc.
+> Also details on how we implemented it using SDH rendering, and how it gave us incredible performance,
+> flexibility and developer experience.
+
+> :MetaOverride target=keywords, behavior=extend
+>
+> Javascript, Frontend, React, JSX, Typescript, GatsbyJS, JAMStack, Isomorphic, SSR, 
+
+> :MetaOverride property=og:type
+>
+> article
+
+> :MetaOverride target=twitter:card
+>
+> summary_large_image
+
+> :MetaOverride target=twitter:title
+>
+> How Coding Blog JAMStack Works
+
+> :MetaOverride property=og:title
+>
+> How Coding Blog JAMStack Works
+
+> :MetaOverride target=twitter:creator
+>
+> @lorean_victor
+
+> :MetaOverride target=twitter:site
+>
+> @coding_blog
+
+> :MetaOverride target=twitter:description
+>
+> Why we chose JAMStack for coding.blog, instead of doing SSR, making an Singe-Page Application,
+> setting up an isomorphic Javascript project, etc.
+> Also details on how we implemented it using SDH rendering, and how it gave us incredible performance,
+> flexibility and developer experience.
+
+> :MetaOverride property=og:description
+>
+> Why we chose JAMStack for coding.blog, instead of doing SSR, making an Singe-Page Application,
+> setting up an isomorphic Javascript project, etc.
+> Also details on how we implemented it using SDH rendering, and how it gave us incredible performance,
+> flexibility and developer experience.
+
+> :MetaOverride target=twitter:image
+>
+> https://coding.blog/img/blogs/performance-comparison-v-gatsbyjs.png
+
+> :MetaOverride property=og:image
+>
+> https://coding.blog/img/blogs/performance-comparison-v-gatsbyjs.png
