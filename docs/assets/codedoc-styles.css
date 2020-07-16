@@ -1019,11 +1019,11 @@ body.dark code {
   .code-0-0-27 .error .wave, .code-0-0-27 .warning .wave {
     left: 0;
     right: 0;
-    bottom: -12px;
+    bottom: -1rem;
     position: absolute;
-    font-size: 18px;
-    font-family: cursive;
-    letter-spacing: -2px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: -.43rem;
   }
   .lineCounter-0-0-28 {
     left: 0;

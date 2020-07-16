@@ -93,6 +93,11 @@
       "hash": "5C7mlfiypfDBeBwm8QT42g=="
     },
     {
+      "name": "JoinButton",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx",
+      "hash": "vnuJLwoGViEp/Odb1ab7Ow=="
+    },
+    {
       "name": "JoinCreatorButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-creator/button.tsx",
       "hash": "lMESGbHzhfX6M8dUvLqFOQ=="
@@ -101,11 +106,6 @@
       "name": "ToCPrevNext",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js",
       "hash": "dPH0+SmZ7R38b/oBW5P5Rw=="
-    },
-    {
-      "name": "JoinButton",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx",
-      "hash": "vnuJLwoGViEp/Odb1ab7Ow=="
     },
     {
       "name": "ACSBControl",
