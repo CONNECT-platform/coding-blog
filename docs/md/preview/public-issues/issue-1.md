@@ -2,11 +2,11 @@
 > :DarkLight
 > > :InDark
 > >
-> > ![Banner](/banner-dark.svg)
+> > ![Banner](/img/issue-banner-dark.svg)
 >
 > > :InLight
 > >
-> > ![Banner](/banner.svg)
+> > ![Banner](/img/issue-banner.svg)
 
 # Public Issue #1
 
@@ -159,7 +159,7 @@ then we want to help spread the word.
 
 ---
 
-## Few Last Words
+## Some Final Words
 
 As said before, these issues are glimpses of what we want our curated issues to be: quality collections of
 recent programming articles, tailored to your interests. If you are interested, you can 
