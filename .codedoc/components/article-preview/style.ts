@@ -22,6 +22,9 @@ export const ArticlePreviewStyle = themedStyle<CodedocTheme>(theme => ({
       }
     }
   },
+  content: {
+    display: 'block',
+  },
   image: {
     display: 'block',
     width: '100%',
@@ -82,6 +85,24 @@ export const ArticlePreviewStyle = themedStyle<CodedocTheme>(theme => ({
 
       '&:first-child': {
         marginRight: 32
+      }
+    },
+
+    '&[data-align-summary="short"]': {
+      '& $content': {
+        height: 288,
+      }
+    },
+
+    '&[data-align-summary="medium"]': {
+      '& $content': {
+        height: 324,
+      }
+    },
+
+    '&[data-align-summary="long"]': {
+      '& $content': {
+        height: 384,
       }
     },
 

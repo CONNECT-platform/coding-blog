@@ -44,28 +44,34 @@ export function ArticlePreview(
         <a data-bg-image={options.image} class={classes.image} href={options.url} target="_blank"/>
       :''}
       <div>
-        <a class={classes.title} href={options.url} target="_blank">{options.title}</a>
-        <div class={classes.summary}>
-          <a href={options.url} target="_blank">{content}</a>
-          <Buttons>
-            <a href={options.url} target="_blank">Read Article<Icon align="text-top">navigate_next</Icon></a>
-            {/* <Button url={options.url} label="Read More"/> */}
-          </Buttons>
+        <div class={classes.content}>
+          <a class={classes.title} href={options.url} target="_blank">{options.title}</a>
+          <div class={classes.summary}>
+            <a href={options.url} target="_blank">{content}</a>
+          </div>
         </div>
+        <Buttons>
+              <a href={options.url} target="_blank">Read Article<Icon align="text-top">navigate_next</Icon></a>
+        </Buttons>
       </div>
     </div>
   </div>
 }
 
 
+export interface ArticlePreviewRowOptions {
+  alignSummary?: 'short' | 'medium' | 'long'
+}
+
+
 export function ArticlePreviewRow(
   this: ThemedComponentThis<CodedocTheme>,
-  _: any,
+  options: ArticlePreviewRowOptions,
   renderer: any,
   content: any
 ) {
   const classes = this.theme.classes(ArticlePreviewStyle);
-  return <div class={classes.row}>
+  return <div class={classes.row} data-align-summary={options.alignSummary || ''}>
     {content}
   </div>
 }

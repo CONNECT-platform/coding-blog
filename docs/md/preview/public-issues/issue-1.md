@@ -51,7 +51,7 @@ then we want to help spread the word.
 
 ---
 
-> :ArticlePreviewRow
+> :ArticlePreviewRow alignSummary=short
 >
 > > :ArticlePreview \
 > > title=Second-guessing the modern web,
@@ -80,18 +80,16 @@ then we want to help spread the word.
 
 ---
 
-> :ArticlePreviewRow
+> :ArticlePreviewRow alignSummary=medium
 >
 > > :ArticlePreview \
 > > url=https://tims.coding.blog/swift-stuff/building-a-fully-working-contact-list-in-swiftui,
-> > image="https://tims.coding.blog/img/posts/swift-stuff/building-a-fully-working-contact-list-in-swiftui/contactlist-large-dark.png",
 > > title=Building a fully working contact list in SwiftUI
 > >
 > > In a recent project, I needed to build a contact list which displays all system contacts. While this wasn’t too hard to achieve, I had to incorporate a lot of stuff I have only learned about then, as I’m still relatively new to building iOS apps. The existing guides were either still for mainly UIKit based apps or only covered the basics.
 >
 > > :ArticlePreview \
 > > url=https://sesajad.coding.blog/2020-07-xyz,
-> > image="https://sesajad.coding.blog/img/2020-07-xyz-header.png",
 > > title="Story of a tweet, and a four-hour concentrated work and a product"
 > >
 > > The story starts from a tweet, from Arya that why doesn't Spotify have a feature to tell it "I am going to change my mood in a couple of weeks, so make a schedule and bring me something"? I guess the answer was the priority, the same thing everywhere when there is a product.
@@ -110,7 +108,7 @@ then we want to help spread the word.
 
 ---
 
-> :ArticlePreviewRow
+> :ArticlePreviewRow alignSummary=short
 > > :ArticlePreview \
 > > url=https://phil.tech/2020/prioritizing-api-ecosystem-maturity/,
 > > title=Refactoring an entire API Ecosystem,
@@ -119,21 +117,20 @@ then we want to help spread the word.
 > > You've joined a huge company and the entire API ecosystem is a complete mess, how do you prioritize what needs to be done in order to unf**k the whole thing? API Descriptions, REST, API Evolution, Circuit Breakers, HTTP/2, HTTP Caching, gRPC, GraphQL, what is going to help and when do you do it?
 >
 > > :ArticlePreview \
-> > url=https://dev.to/benlesh/observables-reactive-programming-and-regret-4jm6,
-> > title="Observables, Reactive Programming, and Regret",
-> > image="https://res.cloudinary.com/practicaldev/image/fetch/s--vUmF618T--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--SqEbDL02--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/rmwkqt7nf7ry9o1ffl6e.jpg"
+> > url=https://lennart.coding.blog/covid-impact-on-cloud-strategy,
+> > title="COVID-19's impact on cloud strategy!",
+> > image="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&h=600&fit=crop&ixid=eyJhcHBfaWQiOjF9"
 > >
-> > As of this writing, I've been working on the RxJS project for almost 6 years, I think. When I started out, I really had no idea what I was getting into (And I wouldn't have been able to ship those first versions without Paul Taylor and others, for sure). I can remember looking at the number of weekly downloads on npm, and being able to figure out how exactly how many of them were mine. Fast forward to today, RxJS and observables have become extremely popular... Loved by many, hated by a few, and my fear is, misunderstood by most.
+> > In this article I explore some some of the consequences of COVID-19. Especially the impact on cloud strategies of companies is quite interesting. Also the willingness of companies to move workloads to the cloud, in times of a recession, might be different than what you would expect.
+
 
 ---
 
 > :ArticlePreview \
-> style=row,
-> url=https://lennart.coding.blog/covid-impact-on-cloud-strategy,
-> title="COVID-19's impact on cloud strategy!",
-> image="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1900&h=600&fit=crop&ixid=eyJhcHBfaWQiOjF9"
+> url=https://dev.to/benlesh/observables-reactive-programming-and-regret-4jm6,
+> title="Observables, Reactive Programming, and Regret"
 >
-> In this article I explore some some of the consequences of COVID-19. Especially the impact on cloud strategies of companies is quite interesting. Also the willingness of companies to move workloads to the cloud, in times of a recession, might be different than what you would expect.
+> As of this writing, I've been working on the RxJS project for almost 6 years, I think. When I started out, I really had no idea what I was getting into (And I wouldn't have been able to ship those first versions without Paul Taylor and others, for sure). I can remember looking at the number of weekly downloads on npm, and being able to figure out how exactly how many of them were mine. Fast forward to today, RxJS and observables have become extremely popular... Loved by many, hated by a few, and my fear is, misunderstood by most.
 
 ---
 
@@ -177,7 +174,7 @@ Also we should thank all of the authors featured on this issue, for sharing thei
 upon sharing knowledge and experience, and writing about your experiences is a crucial element of that. 
 
 This also cannot be achieved without the help of the community. If you want to help us further this vision of an open
-and ad-free home for quality coding articles, you can do so by spreading the word, or even better yet, join
+and ad-free home for quality coding blogs, you can do so by spreading the word, or even better yet, join
 our community of creators.
 
 > :Buttons
