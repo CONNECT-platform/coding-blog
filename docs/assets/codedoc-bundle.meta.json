@@ -69,6 +69,11 @@
       "name": "copyLineLinks",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/code/line-links/copy-line-link.js",
       "hash": "XPNqzTjJ5OyfhKHd/eM9HA=="
+    },
+    {
+      "name": "deferBgImages",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/article-preview/defer-bg-images.ts",
+      "hash": "GuOeT6r9d1UfmYNHW6YNKQ=="
     }
   ],
   "components": [
@@ -93,11 +98,6 @@
       "hash": "5C7mlfiypfDBeBwm8QT42g=="
     },
     {
-      "name": "JoinButton",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx",
-      "hash": "vnuJLwoGViEp/Odb1ab7Ow=="
-    },
-    {
       "name": "JoinCreatorButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-creator/button.tsx",
       "hash": "lMESGbHzhfX6M8dUvLqFOQ=="
@@ -108,14 +108,29 @@
       "hash": "dPH0+SmZ7R38b/oBW5P5Rw=="
     },
     {
-      "name": "ACSBControl",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/status-bound/control.tsx",
-      "hash": "rAwarKynpy/O96Cwe2ABsw=="
+      "name": "JoinButton",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx",
+      "hash": "vnuJLwoGViEp/Odb1ab7Ow=="
+    },
+    {
+      "name": "TabSelector",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
+      "hash": "35QFbN70LTVyd/ipvfqjCQ=="
     },
     {
       "name": "AccountProp",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/account-prop/inline.tsx",
       "hash": "1Jf+OzRlMLYJPPZCWaMIDw=="
+    },
+    {
+      "name": "ACSBControl",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/status-bound/control.tsx",
+      "hash": "rAwarKynpy/O96Cwe2ABsw=="
+    },
+    {
+      "name": "ACPBControl",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/prop-bound/control.tsx",
+      "hash": "iuBoj8gqUJWoao5Rhv6Z5A=="
     },
     {
       "name": "AccountPropCode",
@@ -138,11 +153,6 @@
       "hash": "2UJH07mrL6zqL5jrlN00iA=="
     },
     {
-      "name": "ACPBControl",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/prop-bound/control.tsx",
-      "hash": "iuBoj8gqUJWoao5Rhv6Z5A=="
-    },
-    {
       "name": "BindRepoButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/bind-repo/button.tsx",
       "hash": "kWYPxjjS6eHniJ5+rq7lbQ=="
@@ -161,11 +171,6 @@
       "name": "PublishButton",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/button.tsx",
       "hash": "zJTkEHU8i5aA8SWu2KQczA=="
-    },
-    {
-      "name": "TabSelector",
-      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js",
-      "hash": "35QFbN70LTVyd/ipvfqjCQ=="
     }
   ],
   "renderer": {
