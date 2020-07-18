@@ -27,6 +27,13 @@ interesting. More than half, but not all, are created with our own authoring too
 community. However, they are not exclusive to `coding.blog`s, as if a piece is free to access and interesting,
 then we want to help spread the word.
 
+<br>
+
+> :Buttons
+>
+> Eugene Ghanizadeh Khoub \
+> July 2020
+
 ---
 
 ## Articles
@@ -132,33 +139,34 @@ then we want to help spread the word.
 
 > :ArticlePreviewRow
 > > :ArticlePreview \
-> > url=https://tysonwilliams.coding.blog/2020-07-17_naming_optimization_problem,
-> > title=Naming Optimization Problem
-> > 
-> > Naming is an optimization problem with uniqueness as the constraint and communication as the objective function. Uniqueness is easy enough to achieve; just include a guid. Naming is impossibly hard because it involves communication.
->
-> > :ArticlePreview \
 > > url=https://james.coding.blog/lazy-iterators,
 > > title=Lazy Iterators
 > >
 > > So-called "Lazy" evaluated functions have their actual execution delayed until a "terminator" function is called. It's common for lazy functions to be chained together using fluent interfaces, culminating with actions being performed when the terminator function is called. What can Salesforce developers writing Apex code stand to gain by learning more about lazy functions?
+>
+> > :ArticlePreview \
+> > title=MUD: Rooms part 1,
+> > url=https://mud.coding.blog/rooms-part1,
+> >
+> > The purpose of this blog is to document my progress as I attempt to learn Clojure & ClojureScript by writing a multi-user dungeon.
 
 ---
 
 > :ArticlePreview \
-> style=row-reverse,
-> title=MUD: Rooms part 1,
-> url=https://mud.coding.blog/rooms-part1,
-> image=https://mud.coding.blog/img/mud-book.jpg
+> url=https://tysonwilliams.coding.blog/2020-07-14_identity_as_as,
+> title=Identity as As,
+> image=https://tysonwilliams.coding.blog/src/assets/images/as_extension_method.png,
+> style=row-reverse
 >
-> The purpose of this blog is to document my progress as I attempt to learn Clojure & ClojureScript by writing a multi-user dungeon.
+> The identity function is so trivial. And yet, it is important enough that both F# and Haskell expose this function to all developers under the name id. The standard justification is that id can be a useful argument to a higher-order function. This is certainly true, but it is not the only justification. In C#, I have found reasonable uses for calling id as an extension method.
 
 ---
 
 ## Few Last Words
 
 As said before, these issues are glimpses of what we want our curated issues to be: quality collections of
-recent programming articles, tailored to your interests. If you are interested, you can join our beta waiting list:
+recent programming articles, tailored to your interests. If you are interested, you can 
+[follow us on twitter for more updates](https://twitter.com/coding_blog), or join our beta waiting list:
 
 > :Buttons
 > > :JoinButton
