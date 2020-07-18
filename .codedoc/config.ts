@@ -1,5 +1,6 @@
 import { 
   configuration, 
+  DefaultConfig,
   DefaultMarkdownCustomInlineComponents,
   DefaultMarkdownCustomComponents
 } from '@codedoc/core';
@@ -21,6 +22,7 @@ import { EditNameButton$ } from './components/account/edit-name';
 import { BindRepoButton$ } from './components/account/bind-repo';
 import { PublishButton$, RefreshPublishWebhookButton$ } from './components/account/publish-blog';
 import { PublishStatus$ } from './components/account/publish-status';
+import { ArticlePreview, ArticlePreviewRow, deferBgImages$ } from './components/article-preview';
 
 
 export const config = /*#__PURE__*/configuration({
@@ -57,6 +59,12 @@ export const config = /*#__PURE__*/configuration({
     html: 'dist',
     assets: 'dist',
   },
+  bundle: {
+    init: [
+      ...DefaultConfig.bundle.init,
+      deferBgImages$
+    ],
+  },
   markdown: {
     customInlineComponents: {
       ...DefaultMarkdownCustomInlineComponents,
@@ -73,6 +81,8 @@ export const config = /*#__PURE__*/configuration({
       EditNameButton: EditNameButton$, BindRepoButton: BindRepoButton$,
       PublishButton: PublishButton$, RefreshPublishWebhookButton: RefreshPublishWebhookButton$,
       PublishStatus: PublishStatus$,
+
+      ArticlePreview, ArticlePreviewRow
     }
   },
   misc: {
