@@ -6,10 +6,12 @@ export function deferBgImages() {
     const _exec = () => {
       document.querySelectorAll('[data-bg-image]').forEach(el$ => {
         const _ogStyle = el$.getAttribute('style');
-        el$.setAttribute('style', [
-          ...(_ogStyle?[_ogStyle]:[]), 
-          `background-image: url('${el$.getAttribute('data-bg-image')}')`
-        ].join(';'));
+        setTimeout(() => {
+          el$.setAttribute('style', [
+            ...(_ogStyle?[_ogStyle]:[]), 
+            `background-image: url('${el$.getAttribute('data-bg-image')}')`
+          ].join(';'));
+        }, 1);
       });
     };
 

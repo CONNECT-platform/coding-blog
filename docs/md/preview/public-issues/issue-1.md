@@ -108,6 +108,16 @@ then we want to help spread the word.
 
 ---
 
+> :ArticlePreview \
+> style=row,
+> url=https://maraoz.com/2020/07/18/openai-gpt3/,
+> title="OpenAI's GPT-3 may be the biggest thing since bitcoin",
+> image=https://maraoz.com/img/openai-gpt3/cover.jpg
+>
+>  share my early experiments with OpenAI's new language prediction model (GPT-3) beta. I explain why I think GPT-3 has disruptive potential comparable to that of blockchain technology.
+
+---
+
 > :ArticlePreviewRow alignSummary=short
 > > :ArticlePreview \
 > > url=https://phil.tech/2020/prioritizing-api-ecosystem-maturity/,
@@ -131,6 +141,16 @@ then we want to help spread the word.
 > title="Observables, Reactive Programming, and Regret"
 >
 > As of this writing, I've been working on the RxJS project for almost 6 years, I think. When I started out, I really had no idea what I was getting into (And I wouldn't have been able to ship those first versions without Paul Taylor and others, for sure). I can remember looking at the number of weekly downloads on npm, and being able to figure out how exactly how many of them were mine. Fast forward to today, RxJS and observables have become extremely popular... Loved by many, hated by a few, and my fear is, misunderstood by most.
+
+---
+
+> :ArticlePreview \
+> style=row,
+> url=https://robinmanuelthiel.coding.blog/2020-07-20_Deploy-PR-AzureDevops,
+> title=Deploy Pull Requests to Kubernetes for Review with Azure DevOps,
+> image="https://images.unsplash.com/reserve/81gZijLSWfge41LgzqQ6_Moving%20Parts.JPG?w=1900&h=600&fit=crop"
+>
+> When a Pull Request got created, you might want to try out the changes in a testing environment. Here is how to optionally deploy Azure DevOps Pull Requests to a dedicated Kubernetes namespace with a single click.
 
 ---
 
