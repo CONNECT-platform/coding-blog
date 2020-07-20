@@ -114,7 +114,7 @@ then we want to help spread the word.
 > title="OpenAI's GPT-3 may be the biggest thing since bitcoin",
 > image=https://maraoz.com/img/openai-gpt3/cover.jpg
 >
->  share my early experiments with OpenAI's new language prediction model (GPT-3) beta. I explain why I think GPT-3 has disruptive potential comparable to that of blockchain technology.
+> I share my early experiments with OpenAI's new language prediction model (GPT-3) beta. I explain why I think GPT-3 has disruptive potential comparable to that of blockchain technology.
 
 ---
 
