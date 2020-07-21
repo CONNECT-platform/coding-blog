@@ -148,7 +148,7 @@ then we want to help spread the word.
 > style=row,
 > url=https://robinmanuelthiel.coding.blog/2020-07-20_Deploy-PR-AzureDevops,
 > title=Deploy Pull Requests to Kubernetes for Review with Azure DevOps,
-> image="https://images.unsplash.com/reserve/81gZijLSWfge41LgzqQ6_Moving%20Parts.JPG?w=1900&h=600&fit=crop"
+> image="https://images.unsplash.com/photo-1539269071019-8bc6d57b0205?w=1900&h=600&fit=crop"
 >
 > When a Pull Request got created, you might want to try out the changes in a testing environment. Here is how to optionally deploy Azure DevOps Pull Requests to a dedicated Kubernetes namespace with a single click.
 
