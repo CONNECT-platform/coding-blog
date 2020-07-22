@@ -118,6 +118,16 @@ then we want to help spread the word.
 
 ---
 
+> :ArticlePreview \
+> style=row-reverse,
+> url=https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/,
+> title="GitHub Archive Program: the journey of the world’s open source code to the Arctic",
+> image=https://github.blog/wp-content/uploads/2020/07/87581945-94a94b80-c68e-11ea-8934-0870b0025e7e.jpg?w=1200
+>
+> At GitHub Universe 2019, we introduced the GitHub Archive Program along with the GitHub Arctic Code Vault. Our mission is to preserve open source software for future generations by storing your code in an archive built to last a thousand years.
+
+---
+
 > :ArticlePreviewRow alignSummary=short
 > > :ArticlePreview \
 > > url=https://phil.tech/2020/prioritizing-api-ecosystem-maturity/,
