@@ -4,6 +4,11 @@
 > :Collapse label=Updates
 >
 > [June 2020](/updates/update-1)
+> [July 2020](/updates/update-2)
+
+> :Collapse label=Public Issues
+>
+> [Public Issue #1](/public-issues/issue-1)
 
 ---
 

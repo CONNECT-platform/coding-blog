@@ -127,7 +127,7 @@ is essential in its success. So stay tuned as we'll be back soon with more news!
 > > ![Banner](/img/figure4.svg)
 
 
-> :ToCPrevNext next=false
+> :ToCPrevNext
 
 > :MetaOverride property=og:type
 >
