@@ -173,7 +173,7 @@ then we want to help spread the word.
 >
 > > :ArticlePreview \
 > > title=MUD: Rooms part 1,
-> > url=https://mud.coding.blog/rooms-part1,
+> > url=https://mud.coding.blog/rooms-part1
 > >
 > > The purpose of this blog is to document my progress as I attempt to learn Clojure & ClojureScript by writing a multi-user dungeon.
 
