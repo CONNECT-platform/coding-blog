@@ -123,9 +123,9 @@ our underlying rendering and state-management libraries, to trim them down to ab
 speed. We want to sync this process with us polishing and releasing these libraries for public use, which we have
 started with the newest version of our client-side state management library, [RxDeep](https://loreanvictor.github.io/rxdeep/).
 
---
+---
 
-## Path Forward
+## The Path Forward
 
 In coming months, we will focus more on increasing the flow of content on the platform while keep improving the
 authoring and publishing toolchain powering it. As mentioned above, this increase will allow us to move forward

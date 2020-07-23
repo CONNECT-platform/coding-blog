@@ -222,3 +222,53 @@ our community of creators.
 > > ![banner](/img/account-banner-dark.svg)
 
 <br><br>
+
+> :MetaOverride target=description
+>
+> Interesting recent articles about programming. GPT-3's stunning results,
+> open source repos stored in arctic, effects of COVID on cloud strategies and more.
+
+> :MetaOverride target=subject
+>
+> Interesting recent articles about programming. GPT-3's stunning results,
+> open source repos stored in arctic, effects of COVID on cloud strategies and more.
+
+> :MetaOverride property=og:type
+>
+> article
+
+> :MetaOverride target=twitter:card
+>
+> summary_large_image
+
+> :MetaOverride target=twitter:title
+>
+> Coding.blog Public Issue #1
+
+> :MetaOverride property=og:title
+>
+> Coding.blog Public Issue #1
+
+> :MetaOverride target=twitter:creator
+>
+> @lorean_victor
+
+> :MetaOverride target=twitter:site
+>
+> @coding_blog
+
+> :MetaOverride target=twitter:description
+>
+> A collection of interesting recent articles about programming.
+
+> :MetaOverride property=og:description
+>
+> A collection of interesting recent articles about programming.
+
+> :MetaOverride target=twitter:image
+>
+> https://coding.blog/img/issue-social-banner.png
+
+> :MetaOverride property=og:image
+>
+> https://coding.blog/img/issue-social-banner.png
