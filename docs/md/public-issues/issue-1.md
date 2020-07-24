@@ -13,13 +13,12 @@
 ## Foreword
 
 About two months ago, we started working on [`coding.blog`](https://coding.blog) with the vision of creating
-a proper home for quality blogs about programming. No ads, no content-marketing, just pure programming passion, 
-knowledge and experience sharing.
+a platform for quality blogs about programming. No ads, no content-marketing, just focused on knowledge and experience sharing by pasionate programmers.
 
-To that end, we envisioned a solution composed of two components: An open-source, convenient, and elegant-out-of-the-box
-solution for writing about programming, and a quality and fair curation mechanism ensuring that people
+We envisioned a solution composed of two components: An open-source, convenient, and elegant-out-of-the-box
+solution for writing about programming. In combination with that, we want to build a quality and fair curation mechanism ensuring that people
 will hear about content they are interested in. Imagine a high quality programming journal that is tailored specifically
-to your interest! That is where we want to head, and that is what we believe can sustain such a platform and keep
+to your interests! That is the direction we want to head towards, and that is what we believe can sustain such a platform and keep
 it free from ads or paywalls.
 
 These public issues are to serve as glimpses of that vision. They are collections of recent articles we found
@@ -31,7 +30,7 @@ then we want to help spread the word.
 
 > :Buttons
 >
-> Eugene Ghanizadeh Khoub \
+> Coding Blog Team  \
 > July 2020
 
 ---
