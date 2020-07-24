@@ -16,7 +16,7 @@ About two months ago, we started working on [`coding.blog`](https://coding.blog)
 a platform for quality blogs about programming. No ads, no content-marketing, just focused on knowledge and experience sharing by pasionate programmers.
 
 We envisioned a solution composed of two components: An open-source, convenient, and elegant-out-of-the-box
-solution for writing about programming. In combination with that, we want to build a quality and fair curation mechanism ensuring that people
+solution for writing about programming, and a quality and fair curation mechanism ensuring that people
 will hear about content they are interested in. Imagine a high quality programming journal that is tailored specifically
 to your interests! That is the direction we want to head towards, and that is what we believe can sustain such a platform and keep
 it free from ads or paywalls.
@@ -30,7 +30,7 @@ then we want to help spread the word.
 
 > :Buttons
 >
-> Coding Blog Team  \
+> Eugene Ghanizadeh Khoub  \
 > July 2020
 
 ---
