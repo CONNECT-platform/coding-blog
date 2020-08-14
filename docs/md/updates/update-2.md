@@ -9,14 +9,14 @@
 
 # Update #2 -  July 2020
 
-A bit more than two months ago, we announced [`coding.blog`](https://coding.blog). Following a warm welcome by the community,
-we started the alpha phase of the platform, releasing the publishing tool-chain and starting a slow roll-out of
+About two months ago, we announced [`coding.blog`](https://coding.blog). Following a positive response by the community,
+we started the alpha phase of the platform. We released the publishing tool-chain and started a slow roll-out of
 blogs on `coding.blog`. We published the [first update](/updates/update-1) and outlined a plan for the platform.
 
-Here is a summary of what has happened since then and what are our future plans:
+Here's a summary of what has happened since then and what our future plans are:
 
-- About a 100 blogs were activated for creators who signed up on our [Prospective Creator's List](/creators). We opted for a slow
-roll out to be able to maintain the capacity to tend to the feedback of each new creator. As the product further stabilizes, we will
+- About a 100 blogs were activated for creators who signed up on our [Prospective Creator's List](/creators). As mentioned in the last update, we opted for a slow
+roll out purposefully to be able to tend to the feedback of each new creator. As the product further stabilizes, we will
 increase the rate at which new blogs are activated.
 
 - Progressing towards the [planned beta stage](/updates/update-1#towards-beta-stage), we have released 
@@ -34,18 +34,18 @@ the [associated plugin](https://github.com/CONNECT-platform/coding-blog-plugin).
   - SEO and general performance
   - Lots of bug fixes
 
-- We expect to progress according to our outlined plans without much change, except perhaps we might roll out the curation system
+- We expect to progress according to our outlined plans, except perhaps we might roll out the curation system
 earlier than the tipping system.
 
 ---
 
 ## Public Issue #1
 
-As stated before, our main plan for financially supporting `coding.blog` is through paid curated lists of content. Progressing
-towards that goal, we published the [first public issue](/public-issues/issue-1), which is a free and public collection of
-interesting recent articles about programming.
+Our main plan for monetisation `coding.blog` is through paid curated lists of content, as mentioned before. Progressing
+towards that goal, we have published the [first public issue](/public-issues/issue-1). This issue which is a free and public collection of
+interesting recent articles about programming that we have hand-picked ourselves along with some community recommendations.
 
-Right now we envision our paid issues to have similar format, but instead with personalized content. At the moment we do have
+We envision our paid issues to have a similar format, but instead with personalized content. At the moment, we have
 a content flow that can sustain the public issues, and as the flow increases, we will move towards the personalized issues as well.
 We will keep publishing the free public issues even after personalized issues are released.
 
@@ -116,7 +116,7 @@ we also introduced an early version of tags (via [a custom tags component](https
 that should help with further classification of content on the platform.
 
 We did conduct investigations onto performance of `coding.blog`, and while the results are pretty good considering
-zero optimization done beforehand, there is definitely room for improvement (mostly to ensure that smart phones will
+zero optimization done beforehand, there is definitely room for improvement (mostly to ensure that smart phones with
 bad connections will also have a snappy loading experience). Part of that effort is iterative improvements
 to **CODEDOC** and `coding-blog-plugin`, which we have already started with. Another part is even further improving
 our underlying rendering and state-management libraries, to trim them down to absolute basics while improving their
