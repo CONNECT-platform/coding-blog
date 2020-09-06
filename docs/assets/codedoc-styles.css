@@ -663,6 +663,11 @@ body.dark code {
     opacity: 0.5;
     transform: none;
   }
+@media screen and (max-width: 1200px) {
+  .anchor-0-0-13 {
+    display: none;
+  }
+}
   .heading-0-0-12:hover .anchor-0-0-13:hover {
     opacity: 1;
   }
@@ -1380,15 +1385,15 @@ body.dark code {
     color: #eeeeee;
   }
 }
-  .summary-0-0-33>a, .summary-0-0-33 p>a {
+  .summary-0-0-33>a, .summary-0-0-33 p>a, .summary-0-0-33 ul>a, .summary-0-0-33 ul>li>a {
     color: #424242;
     text-decoration: none !important;
   }
-  body.dark .summary-0-0-33>a, body.dark .summary-0-0-33 p>a {
+  body.dark .summary-0-0-33>a, body.dark .summary-0-0-33 p>a, body.dark .summary-0-0-33 ul>a, body.dark .summary-0-0-33 ul>li>a {
     color: #eeeeee;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .summary-0-0-33>a, body:not(.dark-mode-animate) .summary-0-0-33 p>a {
+  body:not(.dark-mode-animate) .summary-0-0-33>a, body:not(.dark-mode-animate) .summary-0-0-33 p>a, body:not(.dark-mode-animate) .summary-0-0-33 ul>a, body:not(.dark-mode-animate) .summary-0-0-33 ul>li>a {
     color: #eeeeee;
   }
 }
@@ -1468,6 +1473,9 @@ body.dark code {
   }
   .row-0-0-38[data-align-summary="short"] .content-0-0-34 {
     height: 288px;
+  }
+  .row-0-0-38[data-align-summary="tiny"] .content-0-0-34 {
+    height: 172px;
   }
   .row-0-0-38 .card-0-0-36:first-child {
     margin-right: 32px;
