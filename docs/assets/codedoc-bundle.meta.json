@@ -74,6 +74,11 @@
       "name": "deferBgImages",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/article-preview/defer-bg-images.ts",
       "hash": "GuOeT6r9d1UfmYNHW6YNKQ=="
+    },
+    {
+      "name": "zoomOnFormula",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/formula/zoom-on-formula.js",
+      "hash": "EMU2BbWQCYZBEgSGFIIP3w=="
     }
   ],
   "components": [
