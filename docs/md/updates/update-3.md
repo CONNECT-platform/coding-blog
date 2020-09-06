@@ -33,6 +33,9 @@ someone being harassed on some open-source PR or someone being marginalized in a
 from exploring new frameworks and tools, and all these experiences together will help us grow, as individuals and
 as a community.
 
+> :Buttons
+> > :Button label=Read Public Issue #2, url=/public-issues/issue-2
+
 ---
 
 ## Curation of External Blogs / Articles
