@@ -60,7 +60,7 @@ export function ArticlePreview(
 
 
 export interface ArticlePreviewRowOptions {
-  alignSummary?: 'short' | 'medium' | 'long'
+  alignSummary?: 'tiny' | 'short' | 'medium' | 'long'
 }
 
 

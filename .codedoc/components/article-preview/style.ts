@@ -13,7 +13,7 @@ export const ArticlePreviewStyle = themedStyle<CodedocTheme>(theme => ({
     }
   },
   summary: {
-    '&>a, & p>a': {
+    '&>a, & p>a, & ul>a, & ul>li>a': {
       color: theme.light.text,
       textDecoration: 'none !important',
       'body.dark &': { color: theme.dark.text },
@@ -85,6 +85,12 @@ export const ArticlePreviewStyle = themedStyle<CodedocTheme>(theme => ({
 
       '&:first-child': {
         marginRight: 32
+      }
+    },
+
+    '&[data-align-summary="tiny"]': {
+      '& $content': {
+        height: 172,
       }
     },
 
