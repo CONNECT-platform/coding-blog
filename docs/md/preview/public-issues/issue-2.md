@@ -14,7 +14,7 @@
 
 In the age of copious information, amidst a pandemic, rampant conspiracy theories and social unrest, it has become increasingly difficult to separate fact from fiction. Within this context, it becomes necessary for us to reflect on our own values, what we envision for our content and how we, in our own small way, aim to help with providing an ecosystem of reliable and trustworthy content. 
 
-One of our core aims is to always have content that is freely available for everyone to access and not hidden behind paywalls. This is one of our main criterion in qualifying and adding pieces to our Public and Private Issues since we strongly believe that knowledge needs to be freely shared. This is also one of the main reasons why our platform will always be free for writers and for people to read the articles. 
+One of our core aims is to always have content that is freely available for everyone to access and not hidden behind paywalls. This is one of our main criteria in qualifying and adding pieces to our Public and Private Issues since we strongly believe that knowledge needs to be freely shared. This is also one of the main reasons why our platform will always be free for writers and for people to read the articles. 
 
 Since we aim to monetise directly through curation, our first step is to acknowledge that curation is a value laden process. We believe talking solely about programming related concepts in isolation is redundant. Talking about these concepts while contextualising them within the socio-economic environments that they originate and exist in, and through the lens of the experience of programmers is where we truly learn. So while we strive to stay clear of articles that are opinions disguised as factual dissemination, we also actively highlight pieces showcasing 
 experiences of programmers, from stories of harassments experienced by historically marginalised groups, ethical dilemmas faced by programmers,
@@ -119,7 +119,7 @@ through sharing and learning from these experiences that we can grow as a commun
 >
 > > :ArticlePreview \
 > > title=Javascript Promises curiosity,
-> > url=https://stackoverflow.com/questions/63124658/javascript-promises-curiosity,
+> > url=https://stackoverflow.com/questions/63124658/javascript-promises-curiosity
 > >
 > > When I call this promise, the output does not match with the sequence of function calls. The `.then` comes before the `.catch`, even though the promise with `.then` was being called after. What is the reason for that?
 

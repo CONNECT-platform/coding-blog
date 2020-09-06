@@ -5,7 +5,7 @@ import {
   DefaultMarkdownCustomComponents
 } from '@codedoc/core';
 
-import { Loading } from '@codedoc/core/components';
+import { Loading, formulaPlugin } from '@codedoc/core/components';
 
 import { theme } from './theme';
 import { Big } from './components/big';
@@ -65,6 +65,7 @@ export const config = /*#__PURE__*/configuration({
       deferBgImages$
     ],
   },
+  plugins: [formulaPlugin],
   markdown: {
     customInlineComponents: {
       ...DefaultMarkdownCustomInlineComponents,

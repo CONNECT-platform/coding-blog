@@ -5,6 +5,7 @@
 >
 > [June 2020](/updates/update-1)
 > [July 2020](/updates/update-2)
+> [September 2020](/updates/update-3)
 
 > :Collapse label=Public Issues
 >
