@@ -93,7 +93,7 @@ through sharing and learning from these experiences that we can grow as a commun
 
 > :ArticlePreview \
 > title=Refactoring Tips & Tricks,
-> url=https://james.coding.blog/refactoring-tips-and-tricks,
+> url=https://james.coding.blog/refactoring-tips-and-tricks
 >
 > Refactoring is, ultimately, a luxury — but one that is worthwhile to invest your time in, as you will reap the dividends of refactoring efforts the longer your code is in use.
 
