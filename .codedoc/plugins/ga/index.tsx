@@ -28,25 +28,22 @@ register();
 //   https://www.analyticsmania.com/post/multiple-installations-of-google-tag-manager-detected/
 
 export function googleAnalytics(trackingId: string) {
-  let gtagUrl = `https://www.googletagmanager.com/gtag/js?id=${trackingId}`
-  let functionName = 'sendPageViewToGoogle'
-  let functionBody =
-    `gtag('js', new Date());` +
-    `gtag('config', '${trackingId}');`
-  let localCode =
-    'function gtag(){dataLayer.push(arguments);}' +
-    `function ${functionName}(){${functionBody}}` +
-    'window.dataLayer = window.dataLayer || [];' +
-    `window.addEventListener("navigation", ${functionName});` +
-    `${functionName}();`
-  let anonymousFunction =
-    `(function(){${localCode}})();`
   return function(): ConfigOverride {
     return {
       page: {
         scripts: [
-          <script async src={gtagUrl}></script>,
-          <script>{anonymousFunction}</script>
+          <script>{`
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            
+            ga('create', '${trackingId}', 'auto');
+            ga('send', 'pageview');
+
+            window.addEventListener('navigation', function() {
+              ga('set', 'page', window.location.pathname);
+              ga('send', 'pageview');
+            });
+          `}</script>,
+          <script async src='https://www.google-analytics.com/analytics.js'></script>
         ]
       }
     }
