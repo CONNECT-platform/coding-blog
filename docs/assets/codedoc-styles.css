@@ -1372,42 +1372,150 @@ body.dark code {
     bottom: -4px;
     height: 8px;
   }
-  .formula-0-0-32 {
+  .title-0-0-32 {
+    color: #424242;
+    font-size: 24px;
+    text-decoration: none !important;
+  }
+  body.dark .title-0-0-32 {
+    color: #eeeeee;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .title-0-0-32 {
+    color: #eeeeee;
+  }
+}
+  .summary-0-0-33>a, .summary-0-0-33 p>a, .summary-0-0-33 ul>a, .summary-0-0-33 ul>li>a {
+    color: #424242;
+    text-decoration: none !important;
+  }
+  body.dark .summary-0-0-33>a, body.dark .summary-0-0-33 p>a, body.dark .summary-0-0-33 ul>a, body.dark .summary-0-0-33 ul>li>a {
+    color: #eeeeee;
+  }
+@media (prefers-color-scheme: dark) {
+  body:not(.dark-mode-animate) .summary-0-0-33>a, body:not(.dark-mode-animate) .summary-0-0-33 p>a, body:not(.dark-mode-animate) .summary-0-0-33 ul>a, body:not(.dark-mode-animate) .summary-0-0-33 ul>li>a {
+    color: #eeeeee;
+  }
+}
+  .content-0-0-34 {
+    display: block;
+  }
+  .image-0-0-35 {
+    width: 100%;
+    height: 256px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card-0-0-36 {
+    display: block;
+  }
+  .card-0-0-36 hr {
+    margin: 32px 64px;
+  }
+  .card-0-0-36.row .inside-0-0-37, .card-0-0-36.row-reverse .inside-0-0-37 {
+    display: flex;
+  }
+  .card-0-0-36.row .inside-0-0-37 {
+    flex-direction: row;
+  }
+  .card-0-0-36.row-reverse .inside-0-0-37 {
+    flex-direction: row-reverse;
+  }
+@media (max-width: 768px) {
+  .card-0-0-36.row .inside-0-0-37, .card-0-0-36.row-reverse .inside-0-0-37 {
+    display: block;
+  }
+  .card-0-0-36.row .inside-0-0-37 .image-0-0-35, .card-0-0-36.row-reverse .inside-0-0-37 .image-0-0-35 {
+    width: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
+  }
+}
+  .card-0-0-36.row-reverse .inside-0-0-37 .image-0-0-35 {
+    margin-left: 24px;
+    margin-bottom: 0;
+  }
+  .card-0-0-36.row .inside-0-0-37 .image-0-0-35 {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .card-0-0-36.row .inside-0-0-37 .image-0-0-35, .card-0-0-36.row-reverse .inside-0-0-37 .image-0-0-35 {
+    width: 256px;
+    flex-shrink: 0;
+  }
+  .row-0-0-38 {
+    display: flex;
+    flex-direction: row;
+  }
+  .row-0-0-38 .card-0-0-36 {
+    width: 100%;
+    flex-grow: 1;
+  }
+@media (max-width: 768px) {
+  .row-0-0-38 {
+    display: block;
+  }
+  .row-0-0-38 .card-0-0-36:first-child {
+    margin-right: 0;
+    margin-bottom: 64px;
+  }
+}
+  .row-0-0-38[data-align-summary="long"] .content-0-0-34 {
+    height: 384px;
+  }
+  .row-0-0-38[data-align-summary="medium"] .content-0-0-34 {
+    height: 324px;
+  }
+  .row-0-0-38[data-align-summary="short"] .content-0-0-34 {
+    height: 288px;
+  }
+  .row-0-0-38[data-align-summary="tiny"] .content-0-0-34 {
+    height: 172px;
+  }
+  .row-0-0-38 .card-0-0-36:first-child {
+    margin-right: 32px;
+  }
+  .formula-0-0-39 {
     color: #757575;
     padding: 16px;
     background: #eeeeee;
     border-radius: 3px;
   }
-  body.dark .formula-0-0-32 {
+  body.dark .formula-0-0-39 {
     color: #cacaca;
     background: #282828;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .formula-0-0-32 {
+  body:not(.dark-mode-animate) .formula-0-0-39 {
     color: #cacaca;
     background: #282828;
   }
 }
-  body.dark-mode-animate .formula-0-0-32 {
+  body.dark-mode-animate .formula-0-0-39 {
     transition: background .3s, color .3s;
   }
-  .formula-0-0-32.big {
+  .formula-0-0-39.big {
     font-size: 32px;
   }
-  .formula-0-0-32.center > div {
+  .formula-0-0-39.center > div {
     text-align: center;
   }
-  .line-0-0-33 {
+  .line-0-0-40 {
     cursor: pointer;
     padding: 16px 32px;
     overflow: auto;
     position: relative;
     border-radius: 3px;
   }
-  .line-0-0-33:hover {
+  .line-0-0-40:hover {
     background: #e8e8e8;
   }
-  .line-0-0-33 .counter {
+  .line-0-0-40 .counter {
     top: 0;
     left: 8px;
     width: 32px;
@@ -1419,122 +1527,14 @@ body.dark code {
     text-align: left;
     align-items: center;
   }
-  body.dark .line-0-0-33:hover {
+  body.dark .line-0-0-40:hover {
     background: #323232;
   }
 @media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .line-0-0-33:hover {
+  body:not(.dark-mode-animate) .line-0-0-40:hover {
     background: #323232;
   }
 }
-  body.dark-mode-animate .line-0-0-33:hover {
+  body.dark-mode-animate .line-0-0-40:hover {
     transition: background .3s;
-  }
-  .title-0-0-34 {
-    color: #424242;
-    font-size: 24px;
-    text-decoration: none !important;
-  }
-  body.dark .title-0-0-34 {
-    color: #eeeeee;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .title-0-0-34 {
-    color: #eeeeee;
-  }
-}
-  .summary-0-0-35>a, .summary-0-0-35 p>a, .summary-0-0-35 ul>a, .summary-0-0-35 ul>li>a {
-    color: #424242;
-    text-decoration: none !important;
-  }
-  body.dark .summary-0-0-35>a, body.dark .summary-0-0-35 p>a, body.dark .summary-0-0-35 ul>a, body.dark .summary-0-0-35 ul>li>a {
-    color: #eeeeee;
-  }
-@media (prefers-color-scheme: dark) {
-  body:not(.dark-mode-animate) .summary-0-0-35>a, body:not(.dark-mode-animate) .summary-0-0-35 p>a, body:not(.dark-mode-animate) .summary-0-0-35 ul>a, body:not(.dark-mode-animate) .summary-0-0-35 ul>li>a {
-    color: #eeeeee;
-  }
-}
-  .content-0-0-36 {
-    display: block;
-  }
-  .image-0-0-37 {
-    width: 100%;
-    height: 256px;
-    display: block;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .card-0-0-38 {
-    display: block;
-  }
-  .card-0-0-38 hr {
-    margin: 32px 64px;
-  }
-  .card-0-0-38.row .inside-0-0-39, .card-0-0-38.row-reverse .inside-0-0-39 {
-    display: flex;
-  }
-  .card-0-0-38.row .inside-0-0-39 {
-    flex-direction: row;
-  }
-  .card-0-0-38.row-reverse .inside-0-0-39 {
-    flex-direction: row-reverse;
-  }
-@media (max-width: 768px) {
-  .card-0-0-38.row .inside-0-0-39, .card-0-0-38.row-reverse .inside-0-0-39 {
-    display: block;
-  }
-  .card-0-0-38.row .inside-0-0-39 .image-0-0-37, .card-0-0-38.row-reverse .inside-0-0-39 .image-0-0-37 {
-    width: auto !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    margin-bottom: 20px !important;
-  }
-}
-  .card-0-0-38.row-reverse .inside-0-0-39 .image-0-0-37 {
-    margin-left: 24px;
-    margin-bottom: 0;
-  }
-  .card-0-0-38.row .inside-0-0-39 .image-0-0-37 {
-    margin-right: 24px;
-    margin-bottom: 0;
-  }
-  .card-0-0-38.row .inside-0-0-39 .image-0-0-37, .card-0-0-38.row-reverse .inside-0-0-39 .image-0-0-37 {
-    width: 256px;
-    flex-shrink: 0;
-  }
-  .row-0-0-40 {
-    display: flex;
-    flex-direction: row;
-  }
-  .row-0-0-40 .card-0-0-38 {
-    width: 100%;
-    flex-grow: 1;
-  }
-@media (max-width: 768px) {
-  .row-0-0-40 {
-    display: block;
-  }
-  .row-0-0-40 .card-0-0-38:first-child {
-    margin-right: 0;
-    margin-bottom: 64px;
-  }
-}
-  .row-0-0-40[data-align-summary="long"] .content-0-0-36 {
-    height: 384px;
-  }
-  .row-0-0-40[data-align-summary="medium"] .content-0-0-36 {
-    height: 324px;
-  }
-  .row-0-0-40[data-align-summary="short"] .content-0-0-36 {
-    height: 288px;
-  }
-  .row-0-0-40[data-align-summary="tiny"] .content-0-0-36 {
-    height: 172px;
-  }
-  .row-0-0-40 .card-0-0-38:first-child {
-    margin-right: 32px;
   }
