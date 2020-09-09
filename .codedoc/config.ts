@@ -3,38 +3,38 @@ import {
   DefaultConfig,
   DefaultMarkdownCustomInlineComponents,
   DefaultMarkdownCustomComponents,
-} from "@codedoc/core";
+} from '@codedoc/core';
 
-import { Loading, formulaPlugin } from "@codedoc/core/components";
+import { Loading, formulaPlugin } from '@codedoc/core/components';
 
-import { theme } from "./theme";
-import { Big } from "./components/big";
-import { PersonCard } from "./components/person-card";
-import { JoinButton$ } from "./components/join-beta/button";
-import { JoinCreatorButton$ } from "./components/join-creator/button";
+import { theme } from './theme';
+import { Big } from './components/big';
+import { PersonCard } from './components/person-card';
+import { JoinButton$ } from './components/join-beta/button';
+import { JoinCreatorButton$ } from './components/join-creator/button';
 
-import { LogoutButton$ } from "./components/account/logout";
-import { LoginButton$ } from "./components/account/login";
-import { AccountStatusBound } from "./components/account/status-bound";
-import { AccountPropBound } from "./components/account/prop-bound";
+import { LogoutButton$ } from './components/account/logout';
+import { LoginButton$ } from './components/account/login';
+import { AccountStatusBound } from './components/account/status-bound';
+import { AccountPropBound } from './components/account/prop-bound';
 import {
   AccountProp$,
   AccountPropCode$,
-} from "./components/account/account-prop";
-import { EditNameButton$ } from "./components/account/edit-name";
-import { BindRepoButton$ } from "./components/account/bind-repo";
+} from './components/account/account-prop';
+import { EditNameButton$ } from './components/account/edit-name';
+import { BindRepoButton$ } from './components/account/bind-repo';
 import {
   PublishButton$,
   RefreshPublishWebhookButton$,
-} from "./components/account/publish-blog";
-import { PublishStatus$ } from "./components/account/publish-status";
+} from './components/account/publish-blog';
+import { PublishStatus$ } from './components/account/publish-status';
 import {
   ArticlePreview,
   ArticlePreviewRow,
   deferBgImages$,
-} from "./components/article-preview";
+} from './components/article-preview';
 
-import { googleAnalytics } from "./plugins/ga";
+import { googleAnalytics } from './plugins/ga';
 
 export const config = /*#__PURE__*/ configuration({
   theme,
@@ -43,42 +43,42 @@ export const config = /*#__PURE__*/ configuration({
   },
   page: {
     title: {
-      base: "coding.blog",
+      base: 'coding.blog',
     },
     scripts: [],
-    favicon: "/favicon.ico",
+    favicon: '/favicon.ico',
     meta: {
-      subject: "A Blog for Everything Coding",
+      subject: 'A Blog for Everything Coding',
       description:
-        "An open-source blog system for coding and coders. No content-marketing, no ads in disguise. Pure quality articles.",
+        'An open-source blog system for coding and coders. No content-marketing, no ads in disguise. Pure quality articles.',
       keywords: [
-        "blog",
-        "article",
-        "software",
-        "programming",
-        "code",
-        "open-source",
-        "open source",
-        "coding",
-        "tech",
-        "IT",
-        "blogging",
-        "tutorials",
-        "articles",
-        "convenient",
-        "beautiful",
-        "modern",
+        'blog',
+        'article',
+        'software',
+        'programming',
+        'code',
+        'open-source',
+        'open source',
+        'coding',
+        'tech',
+        'IT',
+        'blogging',
+        'tutorials',
+        'articles',
+        'convenient',
+        'beautiful',
+        'modern',
       ],
     },
   },
   dest: {
-    html: "dist",
-    assets: "dist",
+    html: 'dist',
+    assets: 'dist',
   },
   bundle: {
     init: [...DefaultConfig.bundle.init, deferBgImages$],
   },
-  plugins: [formulaPlugin, googleAnalytics("UA-177467962-1")],
+  plugins: [formulaPlugin, googleAnalytics('UA-177467962-1')],
   markdown: {
     customInlineComponents: {
       ...DefaultMarkdownCustomInlineComponents,
@@ -109,8 +109,8 @@ export const config = /*#__PURE__*/ configuration({
   },
   misc: {
     github: {
-      user: "CONNECT-platform",
-      repo: "coding-blog",
+      user: 'CONNECT-platform',
+      repo: 'coding-blog',
     },
   },
 });
