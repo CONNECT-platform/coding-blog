@@ -10,6 +10,7 @@
 > :Collapse label=Public Issues
 >
 > [Public Issue #1](/public-issues/issue-1)
+> [Public Issue #2](/public-issues/issue-2)
 
 ---
 

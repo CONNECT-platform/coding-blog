@@ -39,7 +39,7 @@ import { googleAnalytics } from './plugins/ga';
 export const config = /*#__PURE__*/ configuration({
   theme,
   dev: {
-    port: 3030,
+    port: 3000,
   },
   page: {
     title: {
