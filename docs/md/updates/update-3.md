@@ -45,7 +45,7 @@ on what we envision on that front.
 Our aim with the `coding.blog` publishing platform is to provide a free, convenient and optimized-for-programming-content
 toolchain allowing authors to publish their work and share their experiences while retaining full ownership of their content.
 
-Regarding our curation, for both public and private issues; we aim to spread the word about insightful articles regardless of whether they are published using our publishing tools or not as long as they would be impactful for our individual readers on their own, .
+Regarding our curation, for both public and private issues; we aim to spread the word about insightful articles regardless of whether they are published using our publishing tools or not as long as they would be impactful for our individual readers on their own.
 We believe that these curation services will be valuable enough to sustain this whole venture financially. However, more importantly
 we believe this will reduce the costs of promotion for authors. This in turn will allow them to focus on pieces that will solely focus on sharing experiences and new frameworks, as opposed to trying to cater to the costs of publishing and visibility through some form of content-marketing.
 
