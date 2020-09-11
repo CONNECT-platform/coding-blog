@@ -78,7 +78,7 @@ other video tracks (or similar data) displaying the _output_ of the code (to som
 
 The reason we feel **Code Casts** are important is that we have observed a lot of nice programming articles sharing the same
 structure: a code snippet that evolves throughout the article with text explaining such evolutions and occasional video / screenshots
-showing some for of _output_ of said code.
+showing some form of _output_ of said code.
 
 The challenge here, is to capture the process properly (i.e. with the cursor and allowing highlighting and marking specific
 parts while _casting_), while maintaining scalability and readability of the format across different devices, for example,
