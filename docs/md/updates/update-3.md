@@ -45,7 +45,7 @@ on what we envision on that front.
 Our aim with the `coding.blog` publishing platform is to provide a free, convenient and optimized-for-programming-content
 toolchain allowing authors to publish their work and share their experiences while retaining full ownership of their content.
 
-Regarding our curation, for both public and private issues; we aim to spread the word about insightful articles regardless of whether they are published using our publishing tools or not as long as they would be impactful for our individual readers on their own, .
+Regarding our curation, for both public and private issues; we aim to spread the word about insightful articles regardless of whether they are published using our publishing tools or not as long as they would be impactful for our individual readers on their own.
 We believe that these curation services will be valuable enough to sustain this whole venture financially. However, more importantly
 we believe this will reduce the costs of promotion for authors. This in turn will allow them to focus on pieces that will solely focus on sharing experiences and new frameworks, as opposed to trying to cater to the costs of publishing and visibility through some form of content-marketing.
 
@@ -78,7 +78,7 @@ other video tracks (or similar data) displaying the _output_ of the code (to som
 
 The reason we feel **Code Casts** are important is that we have observed a lot of nice programming articles sharing the same
 structure: a code snippet that evolves throughout the article with text explaining such evolutions and occasional video / screenshots
-showing some for of _output_ of said code.
+showing some form of _output_ of said code.
 
 The challenge here, is to capture the process properly (i.e. with the cursor and allowing highlighting and marking specific
 parts while _casting_), while maintaining scalability and readability of the format across different devices, for example,
