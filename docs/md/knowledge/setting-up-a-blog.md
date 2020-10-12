@@ -40,7 +40,7 @@ alongside **CODEDOC** configuration dictating how your blog should look like.
 
 ---
 
-## The Repoisotry
+## The Repository
 
 Your blog repo **MUST** be openly accessible, as that is how our build servers can fetch and build it.
 It also **MUST** be a [**CODEDOC**](https://codedoc.cc) project. If you have not setup such a repo,
