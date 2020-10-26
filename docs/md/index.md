@@ -35,7 +35,7 @@ as they cannot reach you for free. Curators like Medium need to put work into
 ensuring you get the articles you would enjoy. To compensate, they either
 put the content behind paywalls or shift the costs to the authors. They also curate with only the content available on their platform. 
 
-Truth be told: there is tonnes of content out there. The problem is finding interesting and truly insightful pieces based on your personal needs. 
+However, there is a tonne of content out there. The problem is finding truly insightful pieces based on your personal needs is time-consuming. 
 > > :Big
 > >
 > > _Today, it feels like most articles are trying to sell you something. They are,
@@ -64,9 +64,9 @@ move forward.
 >
 > _How?_
 
-- `coding.blog` will make every article available for free. We will also not restrict our curation service to articles published only on our platform but will find all freely accessible quality pieces. 
+- `coding.blog` will make every article available for free. Our curation service will not be restricted to articles published only on our platform but will curate from a pool of all freely accessible articles. 
 
-- `coding.blog` will offer per-user curated lists to readers not based on how often you click on certain articles but really accounting for your needs. We will charge a small monthly fee for this. Curation is never really free, but with transparent direct pricing, it can become
+- `coding.blog` will offer personalised curated lists based on your needs. We will charge a small monthly fee for this. Curation is never really free, but with transparent direct pricing, it can become
 free of content that is there only to convince you to buy something, leaving only content
 that you would truly enjoy.
 
