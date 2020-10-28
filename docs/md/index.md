@@ -103,7 +103,7 @@ the authors retain full control and ownership over their work.
 us on this exciting journey towards creating the best medium possible for sharing 
 coding knowledge and experience. 
 
-For our persoanlsied curation service, simply enlist for the waiting list for `coding.blog`'s
+For our personalised curation service, simply enlist for the waiting list for `coding.blog`'s
 beta.
 
 <br>
