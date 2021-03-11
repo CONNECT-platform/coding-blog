@@ -22,18 +22,18 @@ import { ConfigTransport } from '/home/runner/work/coding-blog/coding-blog/.code
 import { JoinCreatorButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-creator/button.tsx';
 import { ToCPrevNext } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/page/toc/prevnext/index.js';
 import { JoinButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/join-beta/button.tsx';
-import { TabSelector } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
-import { AccountProp } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/account-prop/inline.tsx';
 import { ACSBControl } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/status-bound/control.tsx';
-import { ACPBControl } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/prop-bound/control.tsx';
+import { AccountProp } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/account-prop/inline.tsx';
 import { AccountPropCode } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/account-prop/code.tsx';
 import { EditNameButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/edit-name/button.tsx';
 import { LogoutButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/logout/index.tsx';
 import { LoginButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/login/button.tsx';
+import { ACPBControl } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/prop-bound/control.tsx';
 import { BindRepoButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/bind-repo/button.tsx';
 import { PublishStatus } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-status/index.tsx';
 import { RefreshPublishWebhookButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/refresh-button.tsx';
 import { PublishButton } from '/home/runner/work/coding-blog/coding-blog/.codedoc/components/account/publish-blog/button.tsx';
+import { TabSelector } from '/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/tabs/selector.js';
 
 const components = {
   'r+Jv/VS/YauITdU0M0jN1Q==': CollapseControl,
@@ -43,18 +43,18 @@ const components = {
   'lMESGbHzhfX6M8dUvLqFOQ==': JoinCreatorButton,
   'dPH0+SmZ7R38b/oBW5P5Rw==': ToCPrevNext,
   'vnuJLwoGViEp/Odb1ab7Ow==': JoinButton,
-  '35QFbN70LTVyd/ipvfqjCQ==': TabSelector,
-  '1Jf+OzRlMLYJPPZCWaMIDw==': AccountProp,
   'rAwarKynpy/O96Cwe2ABsw==': ACSBControl,
-  'iuBoj8gqUJWoao5Rhv6Z5A==': ACPBControl,
+  '1Jf+OzRlMLYJPPZCWaMIDw==': AccountProp,
   'PR4C5z8XCIWqC0wh4L8big==': AccountPropCode,
   'shWTIDfMQXEiFAVtcMSW6Q==': EditNameButton,
   '2iDZbWXSp9mVHyg4ZHFpxg==': LogoutButton,
   '2UJH07mrL6zqL5jrlN00iA==': LoginButton,
+  'iuBoj8gqUJWoao5Rhv6Z5A==': ACPBControl,
   'kWYPxjjS6eHniJ5+rq7lbQ==': BindRepoButton,
   '8ArGoF0V90w0VfBFfihB3Q==': PublishStatus,
   'pT/+mkb6LyaiJVrBv/2nQg==': RefreshPublishWebhookButton,
-  'zJTkEHU8i5aA8SWu2KQczA==': PublishButton
+  'zJTkEHU8i5aA8SWu2KQczA==': PublishButton,
+  '35QFbN70LTVyd/ipvfqjCQ==': TabSelector
 };
 
 const renderer = getRenderer();
