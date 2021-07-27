@@ -86,7 +86,7 @@
 > > > >
 > > > > Keep this URL safe! If other people gain access to it, they will be able to publish your blog
 > > > > without you realizing it, which might result in unfinished content being published. If you think
-> > > > your publish webhook have been compormised, simply use the refresh button ([refresh](:Icon (align=middle))) to
+> > > > your publish webhook have been compromised, simply use the refresh button ([refresh](:Icon (align=middle))) to
 > > > > create a new webhook, invalidating the old one.
 > > >
 > > > > [bug_report](:Icon) **TROUBLESHOOTING**
