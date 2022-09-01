@@ -71,6 +71,11 @@
       "hash": "XPNqzTjJ5OyfhKHd/eM9HA=="
     },
     {
+      "name": "gatherFootnotes",
+      "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/node_modules/@codedoc/core/dist/es6/components/footnote/gather-footnotes.js",
+      "hash": "gNkegO2VnAi7XLmS1MZLDQ=="
+    },
+    {
       "name": "deferBgImages",
       "filename": "/home/runner/work/coding-blog/coding-blog/.codedoc/components/article-preview/defer-bg-images.ts",
       "hash": "GuOeT6r9d1UfmYNHW6YNKQ=="
