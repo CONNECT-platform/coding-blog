@@ -71,7 +71,7 @@ export class AccountService {
   async fetchData() {
     if (this.token) {
       this.status.next('Checking');
-      await new Promise((resolve, reject) => {
+      await new Promise<void>((resolve, reject) => {
         ajax.getJSON<AccountResponse>(_API_URL + `/account?token=${this.token}`).subscribe(
           response => {
             if (response.user) {
@@ -109,7 +109,7 @@ export class AccountService {
   }
 
   async sendLoginEmail(email: string) {
-    await new Promise((resolve, reject) => {
+    await new Promise<void>((resolve, reject) => {
       ajax.post(_API_URL + `/login?email=${encodeURIComponent(email)}`).subscribe(
         () => resolve(),
         (error) => reject(error),
@@ -118,7 +118,7 @@ export class AccountService {
   }
 
   async updateName(name: string) {
-    await new Promise((resolve, reject) => {
+    await new Promise<void>((resolve, reject) => {
       ajax.put(_API_URL + `/user/name?name=${encodeURIComponent(name)}&token=${this.token}`)
       .subscribe(
         () => {
@@ -131,7 +131,7 @@ export class AccountService {
   }
 
   async bindRepo(url: string) {
-    await new Promise((resolve, reject) => {
+    await new Promise<void>((resolve, reject) => {
       ajax.post(_API_URL + `/blog/git?git_url=${encodeURIComponent(url)}&token=${this.token}`)
       .subscribe(
         response => {
@@ -147,7 +147,7 @@ export class AccountService {
   }
 
   async refreshPublishUrl() {
-    await new Promise((resolve, reject) => {
+    await new Promise<void>((resolve, reject) => {
       ajax.getJSON<WebhookResponse>(_API_URL + `/webhook/create?token=${this.token}&refresh=true`)
       .subscribe(
         response => {

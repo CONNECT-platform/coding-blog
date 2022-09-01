@@ -158,7 +158,7 @@ export class PublishService {
   async publishBlog() {
     if (this.account.data.value?.publishUrl && this._canPublish()) {
       const url = this.account.data.value?.publishUrl;
-      await new Promise((resolve, reject) => {
+      await new Promise<void>((resolve, reject) => {
         ajax.post(url).subscribe(() => {
           this.scheduleLastJobUpdate(50);
           resolve();
