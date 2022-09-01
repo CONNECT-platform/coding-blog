@@ -1,0 +1,22 @@
+name: Sync Sub-domains
+on:
+  push:
+    branches:
+      - master
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: install dependencies
+        working-directory: domain
+        run: npm ci
+      
+      - name: Sync sub-domains
+        working-directory: domain
+        run: node sync.js
+        env:
+          API_KEY: ${{ secrets.DNS_API_KEY }}
+          API_SECRET: ${{ secrets.DNS_API_SECRET }}
