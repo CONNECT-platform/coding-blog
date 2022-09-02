@@ -29,7 +29,7 @@ export async function getLiveBlogs() {
         )
       .map(record => ({
         name: record.name.split('.')[0],
-        repo: record.content,
+        host: record.content,
       }))
   } else {
     throw createHttpError(response.status, response.statusText)
@@ -37,7 +37,7 @@ export async function getLiveBlogs() {
 }
 
 
-export async function addLiveBlog(name, repo) {
+export async function addLiveBlog(name, host) {
   const response = await fetch(`${BASE_URL}create/${DOMAIN}`, {
     method: 'POST',
     body: JSON.stringify({
@@ -45,7 +45,7 @@ export async function addLiveBlog(name, repo) {
       secretapikey: process.env.API_SECRET,
       type: 'CNAME',
       name,
-      content: repo,
+      content: host,
     })
   })
 
@@ -55,13 +55,13 @@ export async function addLiveBlog(name, repo) {
 }
 
 
-export async function updateLiveBlog(name, repo) {
+export async function updateLiveBlog(name, host) {
   const response = await fetch(`${BASE_URL}editByNameType/${DOMAIN}/CNAME/${name}`, {
     method: 'POST',
     body: JSON.stringify({
       apikey: process.env.API_KEY,
       secretapikey: process.env.API_SECRET,
-      content: repo,
+      content: host,
     })
   })
 

@@ -17,7 +17,7 @@ export async function syncBlogs() {
   const updates = local.filter(
     blog => live.some(
       liveBlog => liveBlog.name === blog.name &&
-      liveBlog.repo !== blog.repo
+      liveBlog.host !== blog.host
     )
   )
   const deletions = live.filter(liveBlog => !local.some(localBlog => localBlog.name === liveBlog.name))
@@ -29,7 +29,7 @@ export async function syncBlogs() {
 
   for (const blog of additions) {
     try {
-      await addLiveBlog(blog.name, blog.repo)
+      await addLiveBlog(blog.name, blog.host)
       console.log(chalk.hex(ADD_COLOR)(`✨ Added ${blog.name}`))
     } catch (error) {
       console.log(chalk.hex(ERROR_COLOR)(`Adding ${blog.name} failed: ${error.message}`))
@@ -38,7 +38,7 @@ export async function syncBlogs() {
 
   for (const blog of updates) {
     try {
-      await updateLiveBlog(blog.name, blog.repo)
+      await updateLiveBlog(blog.name, blog.host)
       console.log(chalk.hex(UPDATE_COLOR)(`✏️ Updated ${blog.name}`))
     } catch (error) {
       console.log(chalk.hex(ERROR_COLOR)(`Updating ${blog.name} failed: ${error.message}`))
